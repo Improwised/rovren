@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rovren</title>
+    <title>OpenCV Courses</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,7 +42,7 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
       <div class="container">
-        <a class="navbar-brand" href="">Rovren</a>
+        <a class="navbar-brand" href="">OpenCV Courses</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -55,7 +55,7 @@
               <a class="nav-link" href="#course">Course</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#author">Author</a>
+              <a class="nav-link" href="#teachers">Teachers</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#why_us">Why Us</a>
@@ -119,7 +119,8 @@
             </div>        
             <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark">
               <h3>2 to 3 Times</h3>
-              Workshops
+              Workshops <br />
+              (for students only, not part of course)
             </div>                    
             <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark">
               <h3>Announced Soon</h3>
@@ -137,29 +138,44 @@
       </div>
     </div>
 
-    <div class="py-5 mt-1" id="author">
+    <div class="py-5 mt-1" id="teachers">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 offset-lg-3 text-center">
-            <h1 class="pb-3">Author</h1>
+            <h1 class="pb-3">Teachers</h1>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-9 offset-lg-2">
             <div class="d-flex align-items-center bs-2 rounded bg-white flex-wrap">
               <div class="col-md-6">
-                <img src="Daniel.jpg" class="card-img-top" alt="Daniel">
+                <img src="q-ma.jpg" class="card-img-top" alt="Q Ma">
               </div>
               <div class="p-3 col-md-6">
-                <h3>Danial</h3>
+                <h3>Q Ma</h3>
                 <p class="card-text">
-                  Dan brings over two decades of experience in machine vision and computer imaging, having
+                  Q Ma brings over two decades of experience in machine vision and computer imaging, having
                   worked across multiple manufacturing sites in the United States, Europe, and Asia. <br /><br />
                   His career initially focused on Measurements and Inspection, where he recognized the immense potential of
                   computer vision and machine learning. <br /><br />
-                  Leveraging his expertise, Dan has successfully applied machine vision technologies in system designs encompassing both hardware and software
+                  Leveraging his expertise, Q Ma has successfully applied machine vision technologies in system designs encompassing both hardware and software
                   innovation. <br /><br />
                   He has led numerous projects in diverse areas, including Inspection, Metrology, Controls, Classification, and Deep Learning.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9 offset-lg-2 mt-5">
+            <div class="d-flex align-items-center bs-2 rounded bg-white flex-wrap">
+              <div class="col-md-6">
+                <img src="shiva.png" class="card-img-top" alt="shiva">
+              </div>
+              <div class="p-3 col-md-6">
+                <h3>Shiva</h3>
+                <p class="card-text">
+                  As a passionate educator specializing in the field of image processing with a strong academic background and practical expertise in computer vision, I am dedicated to sharing my knowledge and helping students unlock the potential of powerful OpenCV library. <br /><br />
+                  My teaching philosophy revolves around hands-on learning, engaging students through interactive projects and real-world examples. <br /><br />
+                  I believe in creating a supportive and collaborative learning environment where students feel motivated to explore and experiment with image processing techniques.
                 </p>
               </div>
             </div>
@@ -175,109 +191,31 @@
             <h1 class="mb-5">Why Us</h1>
           </div>
           <div class="col-lg-8 offset-lg-2">
-            We understand that getting started with OpenCV can be challenging. After all the
-            input parameters for functions are confusing and OpenCV documentation is not
-            really helpful.
-
-            <br/><br/>
-
-            You might get tired of constantly debugging your computer vision algorithm just
-            because OpenCV documentation didn’t tell you what image type to use.
-
-            <br/><br/>
-
-            You might not even know which technique to use for image restoration, or even
-            doubt if you need to use image enhancement instead.
-              
-            <br/><br/>
-
-            Deciding which filter to use for image deblurring and sharpening can be
-            frustrating.
-            
-            <br/><br/>
-
-            Or realizing the difference between filter2D kernel and other convolution kernels
-            might surprise you.
-            
-            <br/><br/>
-
-            We know it is difficult to find the optimal threshold value or truly understand the
-            local thresholding method as opposed to the global thresholding method in
-            OpenCV.
-
-            <br/><br/>
-
-            Or you might not quite understand the difference between histogram
-            equalization and normalization.
-            
-            <br/><br/>
-
-            Finding the best image segmentation technique is hard without a doubt.
-            Even choosing between dilation or erosion can be challenging when you are not
-            sure which morphological transformation you need.
-            
-            <br/><br/>
-
-            The same is true for choosing between affine transformation and perspective
-            image transformation.
-            
-            <br/><br/>
-
-            You might not even be aware that the boundingRect operator might be better
-            than minAreaRect in some situations.
-            
-            <br/><br/>
-
-            Or you might not know how to draw an ellipse inside a rectangle.
-            
-            <br/><br/>
-
-            Or what is the difference between cv2.clone() vs copyTo().
-            
-            <br/><br/>
-
-            We don’t even want to mention not knowing the difference between an edge and
-            a contour to detect them. Let alone knowing blob vs noise in OpenCV.
-            
-            <br/><br/>
-
-            Your color balancing task might not get quality results if you haven’t heard about
-            CLAHE.
-
-            <br/><br/>
-
-            And floodFilling probably seems confusing to you.
-            
-            <br/><br/>
-
-            Not to mention moments operator and huMoments that make you scratch your
-            head.
-
-            <br/><br/>
-
-            And the houghLines function that sounds like an alien word.
-
-            <br/><br/>
-
-            We also know you might find it challenging to use machine learning with OpenCV.
-            
-            <br/><br/>
-
-            We know all that and many more. You are not alone. All image processing
-            beginners, students, and hobbyists have many OpenCV confusions. That is why
-            we are offering our OpenCV tutorials to help you.
-            
-            <br/><br/>
-
-            Our teachers are the best OpenCV teachers, industry experts with PHD degrees in
-            the computer vision field that can offer you the best practices to get meaningful
-            results from your image processing tasks.
-            
-            <br/><br/>
-
-            Learn OpenCV tips &amp; tricks from the masters that even ChatGPT can’t give you.
-            All your questions will be answered, and all your confusion will be resolved.
-            Take the best OpenCV course in India.
+            We understand that starting with OpenCV can be quite daunting. The confusion surrounding input parameters and the lack of helpful documentation can make the learning process frustrating. <br /><br />
+            Are you tired of constantly debugging your computer vision algorithms because the OpenCV documentation fails to provide clarity on image types?<br /><br />
+            Perhaps you're unsure which technique to employ for image restoration, or you find yourself questioning whether image enhancement would be more suitable.<br /><br />
+            <ul>
+              <li>
+                The frustration of selecting the right filter for image deblurring and sharpening is real. Understanding the distinction between filter2D kernel and other convolution kernels might catch you off guard.
+              </li>
+              <li>We recognize the difficulty in finding the optimal threshold value and truly comprehending the differences between local and global thresholding methods in OpenCV.</li>
+              <li>You might still be grappling with the disparities between histogram equalization and normalization.</li>
+              <li>
+                Choosing the best image segmentation technique can be an uphill battle. Even deciding between dilation and erosion becomes challenging when you're uncertain which morphological transformation is required.
+              </li>
+              <li>The same applies to choosing between affine transformation and perspective image transformation.</li>
+              <li>You may not be aware that the boundingRect operator can outperform minAreaRect in certain situations.</li>
+              <li>Drawing an ellipse inside a rectangle or understanding the distinction between cv2.clone() and copyTo() might leave you scratching your head.</li>
+              <li>And let's not even get started on the confusion between edges and contours in OpenCV, not to mention the differentiation between blobs and noise.</li>
+              <li>If you haven't explored CLAHE, your color balancing tasks might not yield the desired quality results.</li>
+              <li>And the concept of floodFilling might seem perplexing.</li>
+              <li>Don't even get us started on moments operators and huMoments that can leave you puzzled.</li>
+              <li>The houghLines function might sound like a foreign concept.</li>
+            </ul>
+            We understand the challenges of using machine learning with OpenCV.<br /><br />
+            We are well aware of all these challenges and more. You are not alone. Many beginners, students, and hobbyists in image processing face similar confusions when it comes to OpenCV. That's precisely why we offer our comprehensive OpenCV tutorials to assist you.<br /><br />
+            Our teachers are the crème de la crème of OpenCV instructors. They are industry experts with PhD degrees in the field of computer vision, equipped to provide you with the best practices for achieving meaningful results in your image processing tasks.<br /><br />
+            Learn the tips and tricks of OpenCV from the masters themselves, surpassing even the knowledge that ChatGPT can provide. All your questions will be answered, and your confusion will be resolved. Embark on the journey of the best OpenCV course in India.
           </div>
         </div>
         <div class="row">
@@ -294,7 +232,7 @@
       <div class="row">
         <div class="col">
           <div class="d-flex justify-content-center">
-            <div>© 2023 Rovren. All rights reserved.</div>
+            <div>© 2023 OpenCV Courses. All rights reserved.</div>
           </div>
         </div>
       </div>
