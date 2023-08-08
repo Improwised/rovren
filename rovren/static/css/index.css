@@ -1,0 +1,48 @@
+html,
+body,
+* {
+  font-family: "Rubik", sans-serif !important;
+}
+
+.wrapper {
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-image: url("/images/bg-4-min.png");
+}
+
+.fs4 {
+  font-size: 3.5rem;
+}
+
+.mw-800 {
+  max-width: 800px;
+}
+
+.bs-1 {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.bs-2 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.number {
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 100px;
+  border: 5px solid #9f9f9f;
+}
+
+.bb {
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.a-content {
+  color: #303030;
+  border-bottom: 1px solid #cfcfcf;
+}
