@@ -3,4 +3,3 @@ languageCode = 'en-us'
 title = 'OpenCV Courses'
 [Params]
   description = 'Learn image processing with OpenCV & earn a free CERTIFICATE'
-  canonicalURL = 'https://opencv.courses'
