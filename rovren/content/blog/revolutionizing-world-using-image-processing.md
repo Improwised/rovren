@@ -4,7 +4,6 @@ date: 2023-08-08T16:17:34+05:30
 draft: false
 width: 12
 image: ""
-canonicalURL: "https://opencv.courses/blog/revolutionizing-world-using-image-processing"
 metaTitle: "Revolutionizing world using image processing | OpenCV Courses"
 metaDes: "Image processing plays a pivotal role in a variety of sectors, and with the burgeoning growth of digitalization and artificial intelligence, its importance is only set to increase."
 ---

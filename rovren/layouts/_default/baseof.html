@@ -16,25 +16,25 @@
     <meta name="application-name" content="OpenCV Courses">
 
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ with .Params.canonicalURL }}{{ . }}{{ else }}{{ .Site.Params.canonicalURL }}{{ end }}">
+    <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:title" content="{{ with .Params.metaTitle }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}">
     <meta property="og:description" content="{{ if .Params.metaDes }}{{ .Params.metaDes }} {{ else if .Summary }}{{ .Summary }} | {{ .Site.Title }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-    <meta property="og:image" content="/logo.png">
+    <meta property="og:image" content="/images/logo.png">
 
     <meta property="twitter:card" content="summary">
     <meta property="twitter:site" content="">
     <meta property="twitter:creator" content="">
     <meta property="twitter:title" content="{{ with .Params.metaTitle }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}">
     <meta property="twitter:description" content="{{ if .Params.metaDes }}{{ .Params.metaDes }} {{ else if .Summary }}{{ .Summary }} | {{ .Site.Title }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-    <meta property="twitter:image" content="/logo.png">
+    <meta property="twitter:image" content="/images/logo.png">
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/png" href="/logo.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="/logo.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/logo.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/images/logo.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/images/logo.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/logo.png" sizes="96x96">
     <link rel="stylesheet" type="text/css" href="/css/index.css">
 
-    <link rel="canonical" href="{{ with .Params.canonicalURL }}{{ . }}{{ else }}{{ .Site.Params.canonicalURL }}{{ end }}">
+    <link rel="canonical" href="{{ .Permalink }}">
 
     <script type="application/ld+json">
       {
@@ -43,7 +43,7 @@
         "name": "OpenCV Courses",
         "alternateName": "OpenCV Courses",
         "url": "https://opencv.courses/",
-        "logo": "https://opencv.courses/logo.png",
+        "logo": "https://opencv.courses/images/logo.png",
         "sameAs": []
       }
     </script>

@@ -4,7 +4,6 @@ date: 2023-08-08T16:31:17+05:30
 draft: false
 width: 12
 image: ""
-canonicalURL: "https://opencv.courses/blog/the-vital-interplay-of-image-processing-and-clean-water-provision-in-india"
 metaTitle: "The Vital Interplay of Image Processing and Clean Water Provision in India | OpenCV Courses"
 metaDes: "India's burgeoning population and industries grapple with water resource management. Clean water access is vital for health, economy, and stability. Surprisingly, digital image processing contributes to tackling India's water issues."
 ---

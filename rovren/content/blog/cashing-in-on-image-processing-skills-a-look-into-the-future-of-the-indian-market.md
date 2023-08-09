@@ -4,7 +4,6 @@ date: 2023-08-08T15:49:59+05:30
 draft: false
 width: 12
 image: ""
-canonicalURL: "https://opencv.courses/blog/cashing-in-on-image-processing-skills-a-look-into-the-future-of-the-indian-market"
 metaTitle: "Cashing in on Image Processing Skills: A Look into the Future of the Indian Market | OpenCV Courses"
 metaDes: "At the intersection of computer science and mathematics, image processing has become an essential component of various industries and technologies, creating a lucrative pathway for skilled individuals, particularly in the thriving Indian market."
 ---
