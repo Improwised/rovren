@@ -46,3 +46,7 @@ body,
   color: #303030;
   border-bottom: 1px solid #cfcfcf;
 }
+
+.razorpay-payment-button.svelte-ohbfj8{
+  display: grid !important;
+}
