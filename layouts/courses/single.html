@@ -1,0 +1,109 @@
+{{ define "title" }}{{ .Site.Title }}{{ end }} {{ define "description" }}{{
+.Site.Params.description }}{{ end }} {{ define "main" }}
+
+<div class="wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col py-5">
+        <div class="d-flex align-items-center justify-content-center py-5">
+          <div class="mw-800 text-center">
+            <h1 class="mb-3 fs2">{{.Title}}</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="p-5 mt-1 bg-dark text-white" id="course">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-5 offset-lg-2">
+          {{ with .Params.steps }}
+          {{ range $index, $step := . }}
+          <div class="d-flex justify-content-center">
+          <div>
+            <h3 class="number">{{ add $index 1 }}</h3>
+          </div>
+          <div>
+            <h3>{{ index $step "name" }}</h3>
+            <p class="pb-3">{{ index $step "description" }}</p>
+          </div>
+        </div>
+        {{end}}
+        {{end}}
+
+      </div>
+      <div class="col-lg-3">
+        <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark">
+          <h3>5</h3>
+          Days
+        </div>
+        <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark">
+          <h3>1.15hour/Day</h3>
+          Duration
+        </div>
+        <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark">
+          <h3>{{.Params.Pricing}}</h3>
+          (for the limited time being)
+        </div>
+        {{ if not (eq .Page.Title "Zero Belt")}}
+        <div class="mx-2 rounded py-3 mb-3 text-center bs-2 text-dark">
+          {{if eq .Page.Title "White Belt"}}
+          <form>
+            <script
+              src="https://checkout.razorpay.com/v1/payment-button.js"
+              data-payment_button_id="pl_MWen2ieyEEObyx"
+              async
+            ></script>
+          </form>
+          {{else if eq .Page.Title "Yellow Belt"}}
+          <form>
+            <script
+              src="https://checkout.razorpay.com/v1/payment-button.js"
+              data-payment_button_id="pl_MWfNKPek7HeEpu"
+              async
+            ></script>
+          </form>
+          {{end}}
+        </div>
+
+        {{end}}
+      </div>
+
+      <div class="col-lg-8 offset-lg-2">
+        <br />
+      </div>
+    </div>
+  </div>
+</div>
+<div class="d-flex align-items-center justify-content-center"></div>
+<br />
+<h2 class="text-center">Course Outcome</h2>
+<br />
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="d-flex align-items-center justify-content-center">
+        <div class="mw-800 text-left">{{.Content}}</div>
+      </div>
+    </div>
+  </div>
+  {{ if not (eq .Page.Title "Zero Belt") }}
+  <div class="row">
+    <div class="col-lg-6 offset-lg-3 mt-3 text-center">
+      <form>
+        <script
+          src="https://checkout.razorpay.com/v1/payment-button.js"
+          data-payment_button_id="pl_MNvCIAPAfI9j5Y"
+          async
+        ></script>
+      </form>
+    </div>
+  </div>
+  {{end}}
+</div>
+<hr />
+
+{{end}}

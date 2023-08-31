@@ -14,9 +14,6 @@
                 Participate in free OpenCV workshops that accelerate your learning with OpenCV examples
               </h6>
             </div>
-            <a href="https://forms.gle/z9f7y35jtHtGDmUQ8" target="_blank">
-              <button class="btn btn-primary px-5 py-3 fs-5">Register</button>
-            </a>
           </div>
         </div>
       </div>
@@ -28,103 +25,25 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6 offset-lg-3 text-center">
-        <h1 class="pb-5">Course</h1>
+        <h1 class="pb-5">Courses</h1>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-5 offset-lg-2">
-        <div class="d-flex justify-content-center">
-          <div>
-            <h3 class="number">1</h3>
-          </div>
-          <div>
-            <h3>Image Processing Opportunities and Vision</h3>
-            <p class="pb-3">Let’s unravel the fascinating world of Image Processing Opportunities and Vision. Uncover the boundless potential and practical implementations of vision technologies across a multitude of industries, promising a future full of innovation and advancements.</p>
-          </div>
-        </div>
-
-        <div class="d-flex justify-content-center">
-          <div>
-            <h3 class="number">2</h3>
-          </div>
-          <div>
-            <h3>Imaging Basics</h3>
-            <p class="pb-3">Prepare to enhance your skills and grasp the core concepts, setting the stage for a strong foundation in the fascinating world of image processing!</p>
-          </div>
-        </div>
-
-
-        <div class="d-flex justify-content-center">
-          <div>
-            <h3 class="number">3</h3>
-          </div>
-          <div>
-            <h3>Image processing Core Operations</h3>
-            <p class="pb-3">Now that we have a firm grasp on imaging basics, let's dive into the exciting realm of image operations. Discover the operations like image filtering, thresholding, and pixel manipulation  that allow us to elevate, analyze, and creatively modify the visual content of images, opening up a world of endless possibilities!</p>
-          </div>
-        </div>
-
-        <div class="d-flex justify-content-center">
-          <div>
-            <h3 class="number">4</h3>
-          </div>
-          <div>
-            <h3>Intro to Image Enhancement</h3>
-            <p class="pb-3">As we delve deeper into core operations, we'll unlock the art of enhancing the visual quality and appearance of images through an array of techniques. Journey into the realm of image improvement, where creativity knows no bounds!</p>
-          </div>
-        </div>
-
-        <div class="d-flex justify-content-center">
-          <div>
-            <h3 class="number">5</h3>
-          </div>
-          <div>
-            <h3>Intro to object detection</h3>
-            <p class="pb-3">The excitement doesn't end! Brace yourself for a thrilling exploration of object detection techniques as we expand your toolkit and venture into diverse approaches. Get ready to broaden your horizons and uncover the fascinating world of object detection!</p>
-          </div>
-        </div>
-        
-      </div>
-      <div class="col-lg-3">
-        <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark">
-          <h3>5</h3>
-          Days
-        </div>
-        <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark">
-          <h3>1.15hour/Day</h3>
-          Duration
-        </div>
-        <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark">
-          <h3>$0</h3>
-          <h6 class="text-secondary m-0">
-            <s class="text-secondary">$99</s>&nbsp;<span>(100% off)</span>
-          </h6>
-          (for the limited time being)
-        </div>           
-      </div>
-
-      <div class="col-lg-8 offset-lg-2">
-        <br/>
-        <div class="d-flex align-items-center justify-content-center">
-          <hr style="width: 200px;" />
-        </div>
-        <br/>
-        <h2 class="text-center">Course Outcome</h2>
-        <br/>            
-        <p> This exciting course will equip students with the essential skills in image processing! They'll explore imaging basics, core operations, histograms, segmentation, object detection, shape descriptions, and more.</p>
-        <p>By the end of the course, students will have a versatile toolkit of techniques and methods for analyzing and enhancing images. They'll confidently apply their skills to practical projects and real-life industrial examples, demonstrating their proficiency in image analysis and processing.
-        <p>Get ready to unlock your potential and embark on a captivating journey into the world of image processing!</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6 offset-lg-3 mt-3 text-center">
-        <a href="https://forms.gle/z9f7y35jtHtGDmUQ8" target="_blank">
-          <button class="btn btn-primary px-5 py-3 fs-5">Register</button>
-        </a>
-      </div>
-    </div>
+    <section v-if="industry.common_usecases_title" class="wave-bk bg--">
+      {{ partial "courses/list.html" . }}
+    </section>
   </div>
 </div>
+
+<!-- <div class="p-5 bb">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2 text-center">
+        <h1 class="mb-5">Courses</h1>
+      </div>
+      {{ partial "courses/list.html" . }}
+    </div>
+  </div>
+</div> -->
 
 <div class="py-5 mt-1" id="experts">
   <div class="container">
@@ -204,13 +123,6 @@
         We are well aware of all these challenges and more. You are not alone. Many beginners, students, and hobbyists in image processing face similar confusions when it comes to OpenCV. That's precisely why we offer our comprehensive OpenCV tutorials to assist you.<br /><br />
         Our experts are the best of the best OpenCV instructors. They are industry experts with PhD degrees in the field of computer vision, equipped to provide you with the best practices for achieving meaningful results in your image processing tasks.<br /><br />
         Learn the tips and tricks of OpenCV from the masters themselves, surpassing even the knowledge that ChatGPT can provide. All your questions will be answered, and your confusion will be resolved. Embark on the journey of the best OpenCV course in India.
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6 offset-lg-3 mt-3 text-center">
-        <a href="https://forms.gle/z9f7y35jtHtGDmUQ8" target="_blank">
-          <button class="btn btn-primary px-5 py-3 fs-5">Register</button>
-        </a>
       </div>
     </div>
   </div>

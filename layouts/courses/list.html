@@ -1,0 +1,34 @@
+{{ define "title" }}{{ .Site.Title }}{{ end }} {{ define "description" }}{{
+.Site.Params.description }}{{ end }} {{ define "main" }}
+<div class="wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col py-5">
+        <div class="d-flex align-items-center justify-content-center py-5">
+          <div class="mw-800 text-center">
+            <h1 class="mb-3 fs4">{{.Title}}</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="wave-bk bg--">
+    {{ partial "courses/list.html" . }}
+</section> 
+ <hr />
+
+<!-- <section class="wave-bk bg--">
+    <div class="p-5 bb">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 offset-lg-2 text-center">
+              <h1 class="mb-5">Courses</h1>
+            </div>
+            {{ partial "courses/list.html" . }}
+          </div>
+        </div>
+      </div>
+</section> -->
+{{ end }}
