@@ -14,7 +14,15 @@
   </div>
 </div>
 
-<section class="wave-bk bg--">{{ partial "courses/list.html" . }}</section>
+<div class="p-5 mt-1 bg-dark" id="course">
+  <div class="container">
+    <div class="row">
+      <div class="col py-5">
+        {{ partial "courses/list.html" . }} 
+      </div>
+    </div>
+  </div>
+</div>
 <hr />
 
 {{ end }}

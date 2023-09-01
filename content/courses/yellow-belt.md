@@ -1,28 +1,36 @@
 ---
 title: "Yellow Belt"
-date: 2023-08-31T11:22:48+05:30
+date: 2023-08-31T11:22:41+05:30
 draft: false
 width: 12
-image: ""
+image: "yellow-balt.png"
+color: "#fbcc44"
 metaTitle: "Yellow Belt | OpenCV Courses"
 metaDes: "Yellow Belt | OpenCV Courses"
-pricing: "1999 Rs. "
+pricing: "1499 Rs."
 duration: "1.5 hours / day"
 steps:
-  - name: "Geometrical Transformations"
-    description: "See how spatial transformations can alter images and how it relates to uses such as 3D imaging."
-  - name: "Calibration Techniques"
-    description: "Learn basic camera calibration techniques as needed in computer vision, ensuring accurate and reliable image analysis."
-  - name: "Intro to 3D Imaging"
-    description: "Explore various 3D imaging techniques, including line profile and stereoscopic imaging.  Uncover how methods are processed using conventional image processing tools."
-  - name: "Morphology and other Image Filters"
-    description: "Dive deeper into morphology and other image filters revealing additional shape processing and structural analysis."
+  - name: "Segmentation"
+    description: "Discover additional methods in isolating objects within an image with techniques such as Texture Analysis, Edge Detection, and Contours."
+  - name: "Fundamental Image Filters"
+    description: "Grasp the mechanics of basic image processing filters, including Smoothing, Sharpening, and Edge Extraction."
+  - name: "Moments, Shape, and Feature Descriptions"
+    description: "Gain insights into essential shape descriptors and their role in characterizing objects in images."
+  - name: "Intro to Object Detection and Classification"
+    description: "Explore the methodologies employed for object detection and classification."
+  - name: "Putting It All Together: Profile Measurement"
+    description: "Combine concepts together to see how a simple profile measurement tool is created."
   - name: "Color Imaging"
-    description: "See how multispectral images open up a different world of applications while still using traditional image processing techniques learned earlier."
-  - name: "Inspection and Metrology"
-    description: "Learn additional techniques for inspection and metrology purposes, showcasing their significance across various applications."
-  - name: "Putting it All Together"
-    description: "Observe how a practical application is built using concepts learned from this course."
+    description: "Dive into more advanced color imaging operations and their practical applications, including tasks like color enhancement and color-based object tracking."
+  - name: "Putting It All Together: Ribbon Cable"
+    description: "See how a practical ribbon color application is built using concepts learned throughout this course."
+weight: 2
+pricingDetails: 
+  price: "₹1499"
+  actual: "₹2398"
+  discount: "60%"
+  offerTime: "limited"
+level: "Intermediate"
 ---
 
 This exciting course will equip students with the essential skills
