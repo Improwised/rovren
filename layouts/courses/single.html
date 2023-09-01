@@ -37,12 +37,12 @@
           Days
         </div>
         <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark">
-          <h3>1.15hour/Day</h3>
+          <h3>{{.Params.Duration}}</h3>
           Duration
         </div>
         <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark">
           <h3>{{.Params.Pricing}}</h3>
-          (for the limited time being)
+          Pricing
         </div>
         {{ if not (eq .Page.Title "Zero Belt")}}
         <div class="mx-2 rounded py-3 mb-3 text-center bs-2 text-dark">
@@ -50,7 +50,7 @@
           <form>
             <script
               src="https://checkout.razorpay.com/v1/payment-button.js"
-              data-payment_button_id="pl_MWen2ieyEEObyx"
+              data-payment_button_id="pl_MNvCIAPAfI9j5Y"
               async
             ></script>
           </form>
@@ -58,7 +58,7 @@
           <form>
             <script
               src="https://checkout.razorpay.com/v1/payment-button.js"
-              data-payment_button_id="pl_MWfNKPek7HeEpu"
+              data-payment_button_id="pl_MWzdolGQ1Qbgrz"
               async
             ></script>
           </form>
@@ -95,7 +95,7 @@
       <form>
         <script
           src="https://checkout.razorpay.com/v1/payment-button.js"
-          data-payment_button_id="pl_MWen2ieyEEObyx"
+          data-payment_button_id="pl_MNvCIAPAfI9j5Y"
           async
         ></script>
       </form>
@@ -103,7 +103,7 @@
       <form>
         <script
           src="https://checkout.razorpay.com/v1/payment-button.js"
-          data-payment_button_id="pl_MWfNKPek7HeEpu"
+          data-payment_button_id="pl_MWzdolGQ1Qbgrz"
           async
         ></script>
       </form>

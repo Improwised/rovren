@@ -5,5 +5,5 @@ draft: false
 width: 12
 image: ""
 metaTitle: "Courses | OpenCV Courses"
-metaDes: "Courses | threee courses"
+metaDes: "Courses | OpenCV courses"
 ---
