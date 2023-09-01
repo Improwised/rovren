@@ -44,20 +44,35 @@
           <h3>{{.Params.Pricing}}</h3>
           Pricing
         </div>
-        {{ if not (eq .Page.Title "Zero Belt")}}
+
         <div class="mx-2 rounded py-3 mb-3 text-center bs-2 text-dark">
           {{if eq .Page.Title "White Belt"}}
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform" target="_blank">
-            <button class="btn btn-primary px-5 py-3 fs-5">Join the waitlist</button>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform"
+            target="_blank"
+          >
+            <button class="btn btn-primary px-5 py-3 fs-5">
+              Join the waitlist
+            </button>
           </a>
           {{else if eq .Page.Title "Yellow Belt"}}
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform" target="_blank">
-            <button class="btn btn-primary px-5 py-3 fs-5">Join the waitlist</button>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform"
+            target="_blank"
+          >
+            <button class="btn btn-primary px-5 py-3 fs-5">
+              Join the waitlist
+            </button>
+          </a>
+          {{else if eq .Page.Title "Zero Belt"}}
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform"
+            target="_blank"
+          >
+            <button class="btn btn-primary px-5 py-3 fs-5">Register</button>
           </a>
           {{end}}
         </div>
-
-        {{end}}
       </div>
 
       <div class="col-lg-8 offset-lg-2">
@@ -79,25 +94,39 @@
       </div>
     </div>
   </div>
-  {{ if not (eq .Page.Title "Zero Belt") }}
+
   <div class="row">
-    {{ if not (eq .Page.Title "Zero Belt")}}
     <div class="mx-2 rounded py-3 mb-3 text-center text-dark">
       {{if eq .Page.Title "White Belt"}}
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform" target="_blank">
-        <button class="btn btn-primary px-5 py-3 fs-5">Join the waitlist</button>
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform"
+        target="_blank"
+      >
+        <button class="btn btn-primary px-5 py-3 fs-5">
+          Join the waitlist
+        </button>
       </a>
       {{else if eq .Page.Title "Yellow Belt"}}
-      <form>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform" target="_blank">
-          <button class="btn btn-primary px-5 py-3 fs-5">Join the waitlist</button>
-        </a>
-      </form>
+
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform"
+        target="_blank"
+      >
+        <button class="btn btn-primary px-5 py-3 fs-5">
+          Join the waitlist
+        </button>
+      </a>
+
+      {{else if eq .Page.Title "Zero Belt"}}
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform"
+        target="_blank"
+      >
+        <button class="btn btn-primary px-5 py-3 fs-5">Register</button>
+      </a>
       {{end}}
     </div>
-    {{end}}
   </div>
-  {{end}}
 </div>
 <hr />
 {{end}}
