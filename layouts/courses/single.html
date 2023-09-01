@@ -18,10 +18,9 @@
 <div class="p-5 mt-1 bg-dark text-white" id="course">
   <div class="container">
     <div class="row">
-        <div class="col-lg-5 offset-lg-2">
-          {{ with .Params.steps }}
-          {{ range $index, $step := . }}
-          <div class="d-flex justify-content-center">
+      <div class="col-lg-5 offset-lg-2">
+        {{ with .Params.steps }} {{ range $index, $step := . }}
+        <div class="d-flex justify-content-center">
           <div>
             <h3 class="number">{{ add $index 1 }}</h3>
           </div>
@@ -30,9 +29,7 @@
             <p class="pb-3">{{ index $step "description" }}</p>
           </div>
         </div>
-        {{end}}
-        {{end}}
-
+        {{end}} {{end}}
       </div>
       <div class="col-lg-3">
         <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark">
@@ -92,18 +89,29 @@
   </div>
   {{ if not (eq .Page.Title "Zero Belt") }}
   <div class="row">
-    <div class="col-lg-6 offset-lg-3 mt-3 text-center">
+    {{ if not (eq .Page.Title "Zero Belt")}}
+    <div class="mx-2 rounded py-3 mb-3 text-center text-dark">
+      {{if eq .Page.Title "White Belt"}}
       <form>
         <script
           src="https://checkout.razorpay.com/v1/payment-button.js"
-          data-payment_button_id="pl_MNvCIAPAfI9j5Y"
+          data-payment_button_id="pl_MWen2ieyEEObyx"
           async
         ></script>
       </form>
+      {{else if eq .Page.Title "Yellow Belt"}}
+      <form>
+        <script
+          src="https://checkout.razorpay.com/v1/payment-button.js"
+          data-payment_button_id="pl_MWfNKPek7HeEpu"
+          async
+        ></script>
+      </form>
+      {{end}}
     </div>
+    {{end}}
   </div>
   {{end}}
 </div>
 <hr />
-
 {{end}}
