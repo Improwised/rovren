@@ -1,0 +1,132 @@
+{{ define "title" }}{{ .Site.Title }}{{ end }} {{ define "description" }}{{
+.Site.Params.description }}{{ end }} {{ define "main" }}
+
+<div class="wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col py-5">
+        <div class="d-flex align-items-center justify-content-center py-5">
+          <div class="mw-800 text-center">
+            <h1 class="mb-3 fs2">{{.Title}}</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="p-5 mt-1 bg-dark text-white" id="course">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 offset-lg-2">
+        {{ with .Params.steps }} {{ range $index, $step := . }}
+        <div class="d-flex justify-content-center">
+          <div>
+            <h3 class="number">{{ add $index 1 }}</h3>
+          </div>
+          <div>
+            <h3>{{ index $step "name" }}</h3>
+            <p class="pb-3">{{ index $step "description" }}</p>
+          </div>
+        </div>
+        {{end}} {{end}}
+      </div>
+      <div class="col-lg-3">
+        <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark">
+          <h3>5</h3>
+          Days
+        </div>
+        <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark">
+          <h3>{{.Params.Duration}}</h3>
+          Duration
+        </div>
+        <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark">
+          <h3>{{.Params.Pricing}}</h3>
+          Pricing
+        </div>
+
+        <div class="mx-2 rounded mb-3 text-center bs-2 text-dark">
+          {{if eq .Page.Title "White Belt"}}
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform"
+            target="_blank"
+          >
+            <button class="btn btn-primary px-5 py-3 fs-5 w-100 mt-3">
+              Join the waitlist
+            </button>
+          </a>
+          {{else if eq .Page.Title "Yellow Belt"}}
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform"
+            target="_blank"
+          >
+            <button class="btn btn-primary px-5 py-3 fs-5 w-100 mt-3">
+              Join the waitlist
+            </button>
+          </a>
+          {{else if eq .Page.Title "Orange Belt"}}
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform"
+            target="_blank"
+          >
+            <button class="btn btn-primary px-5 py-3 fs-5 w-100 mt-3">Join the waitlist</button>
+          </a>
+          {{end}}
+        </div>
+      </div>
+
+      <div class="col-lg-8 offset-lg-2">
+        <br />
+      </div>
+    </div>
+  </div>
+</div>
+<div class="d-flex align-items-center justify-content-center"></div>
+<br />
+<h2 class="text-center">Course Outcome</h2>
+<br />
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="d-flex align-items-center justify-content-center">
+        <div class="mw-800 text-left">{{.Content}}</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="mx-2 rounded py-3 mb-3 text-center text-dark">
+      {{if eq .Page.Title "White Belt"}}
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform"
+        target="_blank"
+      >
+        <button class="btn btn-primary px-5 py-3 fs-5">
+          Join the waitlist
+        </button>
+      </a>
+      {{else if eq .Page.Title "Yellow Belt"}}
+
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform"
+        target="_blank"
+      >
+        <button class="btn btn-primary px-5 py-3 fs-5">
+          Join the waitlist
+        </button>
+      </a>
+
+      {{else if eq .Page.Title "Orange Belt"}}
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform"
+        target="_blank"
+      >
+        <button class="btn btn-primary px-5 py-3 fs-5">Join the waitlist</button>
+      </a>
+      {{end}}
+    </div>
+  </div>
+</div>
+<hr />
+{{end}}

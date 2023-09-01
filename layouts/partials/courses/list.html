@@ -1,0 +1,52 @@
+<div class="container courses">
+  <div class="row">
+    {{ range .Pages.ByWeight }}
+    <div class="col-lg-4 mb-5">
+      <div style="border: 1px solid white; background-color: white; border-radius: 15px; ">
+        <a href="{{.Permalink}}" style="text-decoration: none; border-bottom: 1px solid #aaa;">
+          <div class="border-bottom mb-3" style="position: relative;">
+            <img src="/images/courses/{{ .Params.image }}" style="width: 100%; height: auto;" />
+            <div style="position: absolute;
+              top: -12px;
+              right: -10px;
+              background-color: {{ .Params.color }};
+              transform: rotate(12deg);
+              color: white;
+              padding: 10px 20px;
+              font-size: 18px;
+              border-radius: 15px;"
+            >
+              {{ .Params.pricingDetails.discount }} Off
+            </div>
+          </div>
+          <h3 class="text-black mb-3 text-center" style="text-decoration: none;">
+            <span style="text-decoration: none; border-bottom: 3px solid {{ .Params.color }};">
+              {{ .Title }}    
+            </span>
+          </h3>
+        </a>
+        <div class="p-3 d-flex align-items-center justify-content-center">
+          <table>
+            <tr>
+              <td class="text-center px-3">
+                <strong>Level</strong><br/>
+                {{ .Params.level }}<br/>
+              </td>              
+              <td class="text-center px-3">
+                <strong>Mode</strong><br/>
+                Online<br/>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" class="text-center pt-3">
+                <strong>Pricing</strong><br />
+                <h3>{{ .Params.pricingDetails.price }}</h3><h6 class="text-secondary m-0"><s class="text-secondary">{{ .Params.pricingDetails.actual }}</s>&nbsp;<span>({{ .Params.pricingDetails.discount }} off)</span></h6>({{ .Params.pricingDetails.offerTime }})
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
