@@ -29,7 +29,9 @@
       </div>
     </div>
     <section class="wave-bk bg--">
-      {{ partial "courses/list1.html" . }}
+      {{ range where .Site.Pages "Section" "courses" }}
+        {{ partial "courses/list.html" . }}
+      {{ end }}
     </section>
   </div>
 </div>
