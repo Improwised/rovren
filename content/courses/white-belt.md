@@ -25,11 +25,11 @@ steps:
   - name: "Putting it All Together: Simple Lane Detection"
     description: "Explore a straightforward instance demonstrating how lane detection might function, drawing on principles introduced from previous videos."
 weight: 1
-pricingDetails: 
+pricingDetails:
   price: "₹0"
   actual: "₹2000"
   discount: "100%"
-  offerTime: "forever" 
+  offerTime: "forever"
 level: "Simple"
 ---
 

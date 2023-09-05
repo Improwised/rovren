@@ -25,7 +25,7 @@ steps:
   - name: "Putting It All Together: Ribbon Cable"
     description: "See how a practical ribbon color application is built using concepts learned throughout this course."
 weight: 2
-pricingDetails: 
+pricingDetails:
   price: "₹1499"
   actual: "₹2398"
   discount: "60%"
