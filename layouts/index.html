@@ -125,7 +125,9 @@
       <div class="col-lg-8 offset-lg-2 text-center">
         <h1 class="mb-0">Blog</h1>
       </div>
-      {{ partial "blog/list.html" . }}
+      {{ range where .Site.Pages "Section" "blog" }}
+        {{ partial "blog/list.html" . }}
+        {{ end }}
     </div>
   </div>
 </div>
