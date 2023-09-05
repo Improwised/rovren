@@ -7,4 +7,3 @@ image: ""
 metaTitle: "Blog | OpenCV Courses"
 metaDes: "Blog | Learn image processing with OpenCV & earn a free CERTIFICATE"
 ---
-

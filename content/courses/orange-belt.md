@@ -25,7 +25,7 @@ steps:
   - name: "Putting it All Together"
     description: "Observe how a practical application is built using concepts learned from this course."
 weight: 3
-pricingDetails: 
+pricingDetails:
   price: "₹1999"
   actual: "₹3599"
   discount: "80%"

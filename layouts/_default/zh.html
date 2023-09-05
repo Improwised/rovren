@@ -1,39 +1,48 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>OpenCV Courses</title>
-    <meta http-equiv="Content-Language" content="en">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <meta name="author" content="OpenCV Courses">
-    <meta name="copyright" content="OpenCV Courses">
-    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Language" content="en" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta name="title" content="OpenCV Courses">
-    <meta name="description" content="使用 OpenCV 學習 圖像處理 並獲得免費 證書">
+    <meta name="author" content="OpenCV Courses" />
+    <meta name="copyright" content="OpenCV Courses" />
+    <meta name="robots" content="index, follow" />
 
-    <meta name="theme-color" content="#0d6efd">
-    <meta name="application-name" content="OpenCV Courses">
+    <meta name="title" content="OpenCV Courses" />
+    <meta
+      name="description"
+      content="使用 OpenCV 學習 圖像處理 並獲得免費 證書"
+    />
 
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://opencv.courses/zh">
-    <meta property="og:title" content="OpenCV Courses">
-    <meta property="og:description" content="使用 OpenCV 學習 圖像處理 並獲得免費 證書">
-    <meta property="og:image" content="/images/logo.png">
+    <meta name="theme-color" content="#0d6efd" />
+    <meta name="application-name" content="OpenCV Courses" />
 
-    <meta property="twitter:card" content="summary">
-    <meta property="twitter:site" content="">
-    <meta property="twitter:creator" content="">
-    <meta property="twitter:title" content="OpenCV Courses">
-    <meta property="twitter:description" content="使用 OpenCV 學習 圖像處理 並獲得免費 證書">
-    <meta property="twitter:image" content="/images/logo.png">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://opencv.courses/zh" />
+    <meta property="og:title" content="OpenCV Courses" />
+    <meta
+      property="og:description"
+      content="使用 OpenCV 學習 圖像處理 並獲得免費 證書"
+    />
+    <meta property="og:image" content="/images/logo.png" />
 
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <link rel="icon" type="image/png" href="/images/logo.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="/images/logo.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/images/logo.png" sizes="96x96">
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:site" content="" />
+    <meta property="twitter:creator" content="" />
+    <meta property="twitter:title" content="OpenCV Courses" />
+    <meta
+      property="twitter:description"
+      content="使用 OpenCV 學習 圖像處理 並獲得免費 證書"
+    />
+    <meta property="twitter:image" content="/images/logo.png" />
 
-    <link rel="canonical" href="https://opencv.courses/zh">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link rel="icon" type="image/png" href="/images/logo.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/images/logo.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/images/logo.png" sizes="96x96" />
+
+    <link rel="canonical" href="https://opencv.courses/zh" />
 
     <script type="application/ld+json">
       {
@@ -47,15 +56,25 @@
       }
     </script>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <style type="text/css">
-      html, body, * {
-        font-family: 'Rubik', sans-serif !important; 
+      html,
+      body,
+      * {
+        font-family: "Rubik", sans-serif !important;
       }
 
       .wrapper {
@@ -64,21 +83,23 @@
         background-repeat: no-repeat;
         background-image: url("/bg-4-min.png");
       }
-      
+
       .fs4 {
         font-size: 3.5rem;
       }
-      
+
       .mw-800 {
         max-width: 800px;
       }
 
       .bs-1 {
-        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+          rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
       }
 
       .bs-2 {
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+          rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
       }
 
       .number {
@@ -92,21 +113,30 @@
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+    <nav
+      class="navbar navbar-expand-lg bg-dark border-bottom border-bottom-dark"
+      data-bs-theme="dark"
+    >
       <div class="container">
         <a class="navbar-brand" href="/">
           <div class="d-flex align-items-center justify-content-center">
-            <img src="/images/logo.png" height="25" class="me-2"/>
+            <img src="/images/logo.png" height="25" class="me-2" />
             <span>OpenCV Courses</span>
           </div>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-          </ul>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="#course">課程</a>
@@ -131,9 +161,13 @@
           <div class="col py-5">
             <div class="d-flex align-items-center justify-content-center py-5">
               <div class="mw-800 text-center">
-                <h1 class="mb-3 fs4">使用 <span class="text-primary">OpenCV</span> 學習  <span class="text-primary">圖像處理</span> 並獲得免費 <span class="text-decoration-underline">證書</span></h1>
+                <h1 class="mb-3 fs4">
+                  使用 <span class="text-primary">OpenCV</span> 學習
+                  <span class="text-primary">圖像處理</span> 並獲得免費
+                  <span class="text-decoration-underline">證書</span>
+                </h1>
                 <div class="d-flex justify-content-center my-2">
-                  <h6 style="max-width: 400px;">
+                  <h6 style="max-width: 400px">
                     參加免費的OpenCV工作坊，透過OpenCV範例加速你的學習。
                   </h6>
                 </div>
@@ -162,7 +196,9 @@
               </div>
               <div>
                 <h3>圖像處理機會和願景</h3>
-                <p class="pb-3">讓我們揭開圖像處理機會和視覺的迷人世界。發掘視覺技術在多個行業的無限潛力和實際應用，展望充滿創新和進步的未來。</p>
+                <p class="pb-3">
+                  讓我們揭開圖像處理機會和視覺的迷人世界。發掘視覺技術在多個行業的無限潛力和實際應用，展望充滿創新和進步的未來。
+                </p>
               </div>
             </div>
 
@@ -172,10 +208,11 @@
               </div>
               <div>
                 <h3>成像基礎知識</h3>
-                <p class="pb-3">準備好提高您的技能並掌握核心概念，為進入迷人的圖像處理世界打下堅實的基礎！</p>
+                <p class="pb-3">
+                  準備好提高您的技能並掌握核心概念，為進入迷人的圖像處理世界打下堅實的基礎！
+                </p>
               </div>
             </div>
-
 
             <div class="d-flex justify-content-center">
               <div>
@@ -183,7 +220,9 @@
               </div>
               <div>
                 <h3>圖像處理核心操作</h3>
-                <p class="pb-3">現在我們已經牢牢掌握了成像基礎知識，讓我們深入研究令人興奮的圖像操作領域。探索圖像過濾、閾值處理和像素操作等操作，使我們能夠提升、分析和創造性地修改圖像的視覺內容，從而打開一個無限可能的世界！</p>
+                <p class="pb-3">
+                  現在我們已經牢牢掌握了成像基礎知識，讓我們深入研究令人興奮的圖像操作領域。探索圖像過濾、閾值處理和像素操作等操作，使我們能夠提升、分析和創造性地修改圖像的視覺內容，從而打開一個無限可能的世界！
+                </p>
               </div>
             </div>
 
@@ -193,7 +232,9 @@
               </div>
               <div>
                 <h3>圖像增強簡介</h3>
-                <p class="pb-3">隨著我們深入研究核心操作，我們將解鎖通過一系列技術增強圖像視覺質量和外觀的藝術。進入形象改善領域，創造力無極限！</p>
+                <p class="pb-3">
+                  隨著我們深入研究核心操作，我們將解鎖通過一系列技術增強圖像視覺質量和外觀的藝術。進入形象改善領域，創造力無極限！
+                </p>
               </div>
             </div>
 
@@ -203,39 +244,52 @@
               </div>
               <div>
                 <h3>物體檢測簡介</h3>
-                <p class="pb-3">興奮還沒有結束！隨著我們擴展您的工具包並嘗試不同的方法，請準備好對對象檢測技術進行激動人心的探索。準備好拓寬您的視野，探索物體檢測的迷人世界！</p>
+                <p class="pb-3">
+                  興奮還沒有結束！隨著我們擴展您的工具包並嘗試不同的方法，請準備好對對象檢測技術進行激動人心的探索。準備好拓寬您的視野，探索物體檢測的迷人世界！
+                </p>
               </div>
             </div>
-            
           </div>
           <div class="col-lg-3">
-            <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark">
+            <div
+              class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark"
+            >
               <h3>5</h3>
               天
             </div>
-            <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark">
+            <div
+              class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark"
+            >
               <h3>1.15小时/天</h3>
               期间
             </div>
-            <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark">
+            <div
+              class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark"
+            >
               <h3>$0</h3>
               <h6 class="text-secondary m-0">
-                <s class="text-secondary">$99</s>&nbsp;<span>（100% 折扣）</span>
+                <s class="text-secondary">$99</s>&nbsp;<span
+                  >（100% 折扣）</span
+                >
               </h6>
-             （限時）
-            </div>           
+              （限時）
+            </div>
           </div>
 
           <div class="col-lg-8 offset-lg-2">
-            <br/>
+            <br />
             <div class="d-flex align-items-center justify-content-center">
-              <hr style="width: 200px;" />
+              <hr style="width: 200px" />
             </div>
-            <br/>
+            <br />
             <h2 class="text-center">課程產出</h2>
-            <br/>            
-            <p> 這門令人興奮的課程將裝備學生必備的影像處理技能！我們深入探索影像的基礎知識、核心操作、直方圖、分割、物體檢測、形狀描述等等。</p>
-            <p>在課程結束時，學生將擁有一套多功能的技術和方法工具箱，用於分析和增強影像。他們將可充分應用所學技能於實作項目和真實的工業案例，發揮他們在影像分析和處理方面的熟練程度。
+            <br />
+            <p>
+              這門令人興奮的課程將裝備學生必備的影像處理技能！我們深入探索影像的基礎知識、核心操作、直方圖、分割、物體檢測、形狀描述等等。
+            </p>
+            <p>
+              在課程結束時，學生將擁有一套多功能的技術和方法工具箱，用於分析和增強影像。他們將可充分應用所學技能於實作項目和真實的工業案例，發揮他們在影像分析和處理方面的熟練程度。
+            </p>
             <p>準備好解鎖你的潛力，踏上一段引人入勝的影像處理之旅吧！</p>
           </div>
         </div>
@@ -253,37 +307,48 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 offset-lg-3 text-center">
-            <h1 class="pb-3"> 講師</h1>
+            <h1 class="pb-3">講師</h1>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-9 offset-lg-2">
-            <div class="d-flex align-items-center bs-2 rounded bg-white flex-wrap">
+            <div
+              class="d-flex align-items-center bs-2 rounded bg-white flex-wrap"
+            >
               <div class="col-md-6">
-                <img src="/images/q-ma.jpg" class="card-img-top" alt="Q Ma">
+                <img src="/images/q-ma.jpg" class="card-img-top" alt="Q Ma" />
               </div>
               <div class="p-3 col-md-6">
                 <h3>Q Ma</h3>
                 <p class="card-text">
-                    Q Ma擁有二十多年的機器視覺和計算機影像方面的經驗，在美國、歐洲和亞洲的多個製造現場工作過。 <br /><br />
-                    他的職場生涯最初專注於測量和檢測領域，並意識到了計算機視覺和機器學習的巨大潛力。 <br /><br />
-                    憑藉他的專業知識，Q Ma成功應用機器視覺技術在系統設計中，涵蓋硬件和軟件創新。 <br /><br />
-                    他在檢測、計量、控制、分類和深度學習等多個領域領導過眾多項目。
+                  Q
+                  Ma擁有二十多年的機器視覺和計算機影像方面的經驗，在美國、歐洲和亞洲的多個製造現場工作過。
+                  <br /><br />
+                  他的職場生涯最初專注於測量和檢測領域，並意識到了計算機視覺和機器學習的巨大潛力。
+                  <br /><br />
+                  憑藉他的專業知識，Q
+                  Ma成功應用機器視覺技術在系統設計中，涵蓋硬件和軟件創新。
+                  <br /><br />
+                  他在檢測、計量、控制、分類和深度學習等多個領域領導過眾多項目。
                 </p>
               </div>
             </div>
           </div>
           <div class="col-lg-9 offset-lg-2 mt-5">
-            <div class="d-flex align-items-center bs-2 rounded bg-white flex-wrap">
+            <div
+              class="d-flex align-items-center bs-2 rounded bg-white flex-wrap"
+            >
               <div class="col-md-6">
-                <img src="/images/shiva.png" class="card-img-top" alt="shiva">
+                <img src="/images/shiva.png" class="card-img-top" alt="shiva" />
               </div>
               <div class="p-3 col-md-6">
                 <h3>Shiva</h3>
                 <p class="card-text">
-                    一位充滿熱情的教育工作者，專注於圖像處理領域，具有扎實的學術背景和實際的計算機視覺專業知識。她致力於分享知識，幫助學生發掘強大的OpenCV庫的潛力，她的教學理念圍繞著實踐學習和互動項目。 <br /><br />
-                    為學生創造一個支持和合作的學習環境對她來說很重要。她相信通過真實的例子來引起學生的興趣，鼓勵他們探索和嘗試各種圖像處理技術。 <br /><br />
-                    通過激發動力和好奇心，她的目標是賦予學生學習的動力，理解圖像處理的複雜性。
+                  一位充滿熱情的教育工作者，專注於圖像處理領域，具有扎實的學術背景和實際的計算機視覺專業知識。她致力於分享知識，幫助學生發掘強大的OpenCV庫的潛力，她的教學理念圍繞著實踐學習和互動項目。
+                  <br /><br />
+                  為學生創造一個支持和合作的學習環境對她來說很重要。她相信通過真實的例子來引起學生的興趣，鼓勵他們探索和嘗試各種圖像處理技術。
+                  <br /><br />
+                  通過激發動力和好奇心，她的目標是賦予學生學習的動力，理解圖像處理的複雜性。
                 </p>
               </div>
             </div>
@@ -299,31 +364,46 @@
             <h1 class="mb-5">為什麼要跟著我們學</h1>
           </div>
           <div class="col-lg-8 offset-lg-2">
-            我們了解從OpenCV入門可能會讓人感到困惑。輸入參數的混淆以及缺乏有用的文件可能會讓學習過程讓人沮喪。 <br /><br />
+            我們了解從OpenCV入門可能會讓人感到困惑。輸入參數的混淆以及缺乏有用的文件可能會讓學習過程讓人沮喪。
+            <br /><br />
             你是否厭倦了因為OpenCV文檔沒有提供有關圖像類型的明確解釋而不斷調試你的計算機視覺算法？<br /><br />
             也許你不確定應該使用哪種技術進行圖像恢復，或者你在懷疑圖像增強是否更合適。<br /><br />
             <ul>
               <li>
                 選擇適合的圖像去模糊和銳化的過濾器可能讓人感到沮喪。理解filter2D核和其他卷積核之間的區別可能會讓你感到措手不及。
               </li>
-              <li>我們理解在OpenCV中找到最佳閾值值並真正理解局部和全局閾值方法之間的差異是困難的。</li>
+              <li>
+                我們理解在OpenCV中找到最佳閾值值並真正理解局部和全局閾值方法之間的差異是困難的。
+              </li>
               <li>你可能仍然在努力理解直方圖均衡化和正規化之間的差異。</li>
               <li>
                 選擇最佳的圖像分割技術可能是一場艱苦的戰斗。甚至在你不確定需要哪種形態學變換時，決定膨脹和侵蝕之間的選擇也變得具有挑戰性。
               </li>
               <li>同樣的情況也適用於選擇仿射變換和透視圖像變換之間。</li>
-              <li>你可能不知道在某些情況下，boundingRect運算符可以優於minAreaRect。</li>
-              <li>在矩形內繪製橢圓或理解cv2.clone()和copyTo()之間的區別可能會讓你感到困惑。</li>
-              <li>更不用說在OpenCV中邊緣和輪廓之間的混淆，更不用提稱之為斑點和噪聲之間的區別。</li>
-              <li>如果你還沒有探索CLAHE，你的色彩平衡任務可能無法產生所期望的質量結果。</li>
+              <li>
+                你可能不知道在某些情況下，boundingRect運算符可以優於minAreaRect。
+              </li>
+              <li>
+                在矩形內繪製橢圓或理解cv2.clone()和copyTo()之間的區別可能會讓你感到困惑。
+              </li>
+              <li>
+                更不用說在OpenCV中邊緣和輪廓之間的混淆，更不用提稱之為斑點和噪聲之間的區別。
+              </li>
+              <li>
+                如果你還沒有探索CLAHE，你的色彩平衡任務可能無法產生所期望的質量結果。
+              </li>
               <li>而floodFilling的概念可能看似令人困惑。</li>
-              <li>別提關於moments運算符和huMoments，它們可能會讓你感到困惑。</li>
+              <li>
+                別提關於moments運算符和huMoments，它們可能會讓你感到困惑。
+              </li>
               <li>houghLines函數可能聽起來像一個陌生的概念。</li>
             </ul>
             我們理解在使用OpenCV時使用機器學習所面臨的挑戰。<br /><br />
             我們深知所有這些挑戰以及更多。你並不孤單。許多圖像處理的初學者、學生和愛好者在使用OpenCV時都面臨著類似的困惑。這正是為什麼我們提供全面的OpenCV教程來幫助你。<br /><br />
             我們的專家是最好的OpenCV講師。他們是擁有計算機視覺領域的行業專家，能夠為你提供在圖像處理任務中獲得有意義結果的最佳實作。<br /><br />
-            從大師們那裡學習OpenCV的訣竅，超越ChatGPT所能提供的知識。你的所有問題將得到解答，你的困惑將被解決。透過我們最新的OpenCV課程，你可以有別於其它Open CV課程得到更多的國外的最新應用及方法, 並獲得Open CV的證書! </div>
+            從大師們那裡學習OpenCV的訣竅，超越ChatGPT所能提供的知識。你的所有問題將得到解答，你的困惑將被解決。透過我們最新的OpenCV課程，你可以有別於其它Open
+            CV課程得到更多的國外的最新應用及方法, 並獲得Open CV的證書!
+          </div>
         </div>
         <div class="row">
           <div class="col-lg-6 offset-lg-3 mt-3 text-center">
@@ -338,10 +418,15 @@
     <footer class="container py-5" id="contact_us">
       <div class="row">
         <div class="col">
-          <div class="d-flex justify-content-between align-items-center flex-wrap">
+          <div
+            class="d-flex justify-content-between align-items-center flex-wrap"
+          >
             <div>© 2023 OpenCV Courses. 版權所有</div>
             <div>
-              <a href="https://www.linkedin.com/company/opencv-courses/" target="_blank">
+              <a
+                href="https://www.linkedin.com/company/opencv-courses/"
+                target="_blank"
+              >
                 <img src="/images/linkedin.svg" />
               </a>
             </div>
@@ -351,18 +436,27 @@
           </div>
         </div>
       </div>
-    </footer>  
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-09TKWRWHKV"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-09TKWRWHKV"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'G-09TKWRWHKV');
+      gtag("config", "G-09TKWRWHKV");
     </script>
   </body>
 </html>
