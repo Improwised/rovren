@@ -56,23 +56,79 @@
             </button>
           </a>
           {{else if eq .Page.Title "Yellow Belt"}}
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform"
-            target="_blank"
-          >
-            <button class="btn btn-primary px-5 py-3 fs-5 w-100 mt-3">
-              Join the waitlist
-            </button>
-          </a>
+          <button
+        id="razorpay-button"
+        data-payment_button_id="pl_MWzdolGQ1Qbgrz"
+        data-theme="light"
+        data-color="blue"
+        data-size="medium"
+      >
+        Pay Now 
+      </button>
+      <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+      <script>
+        function initRazorpayButton(button, key) {
+          var razorpay = new Razorpay({
+            key: key,
+          });
+
+          razorpay.on("payment.success", function (event) {
+            // Do something when the payment is successful.
+          });
+
+          razorpay.on("payment.failed", function (event) {
+            // Do something when the payment is failed.
+          });
+
+          button.addEventListener("click", function () {
+            razorpay.open({
+              amount: "1000",
+              currency: "INR",
+              button: button,
+            });
+          });
+        }
+
+        var key = "rzp_test_n7kyGDK0LSNg6y";
+        initRazorpayButton(document.getElementById("razorpay-button"), key);
+      </script>
           {{else if eq .Page.Title "Orange Belt"}}
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform"
-            target="_blank"
-          >
-            <button class="btn btn-primary px-5 py-3 fs-5 w-100 mt-3">
-              Join the waitlist
-            </button>
-          </a>
+          <button
+        id="razorpay-button"
+        data-payment_button_id="pl_MWzdolGQ1Qbgrz"
+        data-theme="light"
+        data-color="blue"
+        data-size="medium"
+      >
+        Pay Now 
+      </button>
+      <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+      <script>
+        function initRazorpayButton(button, key) {
+          var razorpay = new Razorpay({
+            key: key,
+          });
+
+          razorpay.on("payment.success", function (event) {
+            // Do something when the payment is successful.
+          });
+
+          razorpay.on("payment.failed", function (event) {
+            // Do something when the payment is failed.
+          });
+
+          button.addEventListener("click", function () {
+            razorpay.open({
+              amount: "1000",
+              currency: "INR",
+              button: button,
+            });
+          });
+        }
+
+        var key = "rzp_test_n7kyGDK0LSNg6y";
+        initRazorpayButton(document.getElementById("razorpay-button"), key);
+      </script>
           {{ end }}
         </div>
       </div>
@@ -110,24 +166,82 @@
       </a>
       {{else if eq .Page.Title "Yellow Belt"}}
 
-      <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform"
-        target="_blank"
-      >
-        <button class="btn btn-primary px-5 py-3 fs-5">
-          Join the waitlist
-        </button>
-      </a>
+      <button
+      id="razorpay-button"
+      data-payment_button_id="pl_MWzdolGQ1Qbgrz"
+      data-theme="light"
+      data-color="blue"
+      data-size="medium"
+    >
+      Pay Now 
+    </button>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script>
+      function initRazorpayButton(button, key) {
+        var razorpay = new Razorpay({
+          key: key,
+        });
+
+        razorpay.on("payment.success", function (event) {
+          // Do something when the payment is successful.
+        });
+
+        razorpay.on("payment.failed", function (event) {
+          // Do something when the payment is failed.
+        });
+
+        button.addEventListener("click", function () {
+          razorpay.open({
+            amount: "1000",
+            currency: "INR",
+            button: button,
+          });
+        });
+      }
+
+      var key = "rzp_test_n7kyGDK0LSNg6y";
+      initRazorpayButton(document.getElementById("razorpay-button"), key);
+    </script>
 
       {{else if eq .Page.Title "Orange Belt"}}
-      <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform"
-        target="_blank"
+
+      <button
+        id="razorpay-button"
+        data-payment_button_id="pl_MWzdolGQ1Qbgrz"
+        data-theme="light"
+        data-color="blue"
+        data-size="medium"
       >
-        <button class="btn btn-primary px-5 py-3 fs-5">
-          Join the waitlist
-        </button>
-      </a>
+        Pay Now 
+      </button>
+      <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+      <script>
+        function initRazorpayButton(button, key) {
+          var razorpay = new Razorpay({
+            key: key,
+          });
+
+          razorpay.on("payment.success", function (event) {
+            // Do something when the payment is successful.
+          });
+
+          razorpay.on("payment.failed", function (event) {
+            // Do something when the payment is failed.
+          });
+
+          button.addEventListener("click", function () {
+            razorpay.open({
+              amount: "1000",
+              currency: "INR",
+              button: button,
+            });
+          });
+        }
+
+        var key = "rzp_test_n7kyGDK0LSNg6y";
+        initRazorpayButton(document.getElementById("razorpay-button"), key);
+      </script>
+
       {{ end }}
     </div>
   </div>
