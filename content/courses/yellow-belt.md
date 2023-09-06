@@ -9,6 +9,8 @@ metaTitle: "Yellow Belt | OpenCV Courses"
 metaDes: "Yellow Belt | OpenCV Courses"
 pricing: "1499 Rs."
 duration: "1.5 hours / day"
+courseDate: "25th September"
+isPaymentStartAccepting: true
 steps:
   - name: "Segmentation"
     description: "Discover additional methods in isolating objects within an image with techniques such as Texture Analysis, Edge Detection, and Contours."
@@ -31,6 +33,7 @@ pricingDetails:
   discount: "60%"
   offerTime: "limited"
 level: "Intermediate"
+payment_id: "pl_MNvCIAPAfI9j5Y"
 ---
 
 This exciting course will equip students with the essential skills

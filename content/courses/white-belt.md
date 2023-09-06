@@ -1,7 +1,7 @@
 ---
 title: "White Belt"
 date: 2023-08-31T11:22:25+05:30
-draft: false
+draft: true
 width: 12
 image: "white-balt.png"
 color: "#cfcfcf"
@@ -31,6 +31,7 @@ pricingDetails:
   discount: "100%"
   offerTime: "forever"
 level: "Simple"
+payment_id: "pl_MNvCIAPAfI9j5Y"
 ---
 
 This exciting course will equip students with the essential skills
