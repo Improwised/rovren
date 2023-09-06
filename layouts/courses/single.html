@@ -41,12 +41,18 @@
           Duration
         </div>
         <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark">
+          <h3>{{.Params.courseDate}}</h3>
+          Date
+        </div>
+        <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark">
           <h3>{{.Params.Pricing}}</h3>
           Pricing
         </div>
-
+        {{ if .Params.isPaymentStartAccepting }}
         <div class="mx-2 rounded mb-3 text-center bs-2 text-dark">
-          {{if eq .Page.Title "White Belt"}}
+          <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="{{ .Params.payment_id }}" async> </script> </form>
+          <span class="text-white fs10 lg1">Payment processed by Improwsied Technologies Pvt. Ltd.</span>
+          <!-- {{if eq .Page.Title "White Belt"}}
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform"
             target="_blank"
@@ -73,8 +79,9 @@
               Join the waitlist
             </button>
           </a>
-          {{ end }}
+          {{end}} -->
         </div>
+        {{ end }}
       </div>
 
       <div class="col-lg-8 offset-lg-2">
@@ -96,10 +103,16 @@
       </div>
     </div>
   </div>
-
+  {{ if .Params.isPaymentStartAccepting }}
   <div class="row">
     <div class="mx-2 rounded py-3 mb-3 text-center text-dark">
-      {{if eq .Page.Title "White Belt"}}
+      <div class="d-flex align-items-center justify-content-center">
+        <div>
+          <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="{{ .Params.payment_id }}" async> </script> </form>
+          <span class="fs10">Payment processed by Improwsied Technologies Pvt. Ltd.</span>
+        </div>
+      </div>
+      <!-- {{if eq .Page.Title "White Belt"}}
       <a
         href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform"
         target="_blank"
@@ -128,9 +141,10 @@
           Join the waitlist
         </button>
       </a>
-      {{ end }}
+      {{end}} -->
     </div>
   </div>
+  {{ end }}
 </div>
 <hr />
 {{ end }}

@@ -9,6 +9,8 @@ metaTitle: "Orange Belt | OpenCV Courses"
 metaDes: "Orange Belt | OpenCV Courses"
 pricing: "1999 Rs. "
 duration: "1.5 hours / day"
+courseDate: "Announcing soon"
+isPaymentStartAccepting: false
 steps:
   - name: "Geometrical Transformations"
     description: "See how spatial transformations can alter images and how it relates to uses such as 3D imaging."
@@ -31,6 +33,7 @@ pricingDetails:
   discount: "80%"
   offerTime: "limited"
 level: "Advanced"
+payment_id: "pl_MNvCIAPAfI9j5Y"
 ---
 
 This exciting course will equip students with the essential skills
