@@ -1,37 +1,38 @@
 ---
 title: "White Belt"
 date: 2023-08-31T11:22:25+05:30
-draft: true
+draft: false
 width: 12
 image: "white-balt.png"
 color: "#cfcfcf"
 metaTitle: "White Belt | OpenCV Courses"
 metaDes: "White Belt | OpenCV Courses"
-pricing: "Free"
-duration: "10-15 mins / video"
+duration: "1.5 hours / day"
+courseDate: "25th September"
+isPaymentStartAccepting: true
 steps:
-  - name: "Intro to Segmentation"
-    description: "Start by learning simple yet powerful segmentation techniques as the initial step in processing images."
-  - name: "Intro to Morphology"
-    description: "Understand the purpose of this essential operation for image processing."
-  - name: "Intro to Color Imaging"
-    description: "Learn basic color management concepts and techniques for processing color images."
-  - name: "Intro to Metrology"
-    description: "Discover the application of computer vision and image processing in achieving accurate measurements and characterization."
-  - name: "Intro to Inspection"
-    description: "See how computer vision and image processing are used for inspection in manufacturing."
-  - name: "Putting it All Together: Inspecting Fuses"
-    description: "See how an application for inspecting fuses is built using concepts from previous videos."
-  - name: "Putting it All Together: Simple Lane Detection"
-    description: "Explore a straightforward instance demonstrating how lane detection might function, drawing on principles introduced from previous videos."
-weight: 1
+  - name: "Segmentation"
+    description: "Discover additional methods in isolating objects within an image with techniques such as Texture Analysis, Edge Detection, and Contours."
+  - name: "Fundamental Image Filters"
+    description: "Grasp the mechanics of basic image processing filters, including Smoothing, Sharpening, and Edge Extraction."
+  - name: "Moments, Shape, and Feature Descriptions"
+    description: "Gain insights into essential shape descriptors and their role in characterizing objects in images."
+  - name: "Intro to Object Detection and Classification"
+    description: "Explore the methodologies employed for object detection and classification."
+  - name: "Putting It All Together: Profile Measurement"
+    description: "Combine concepts together to see how a simple profile measurement tool is created."
+  - name: "Color Imaging"
+    description: "Dive into more advanced color imaging operations and their practical applications, including tasks like color enhancement and color-based object tracking."
+  - name: "Putting It All Together: Ribbon Cable"
+    description: "See how a practical ribbon color application is built using concepts learned throughout this course."
+weight: 2
 pricingDetails:
-  price: "₹0"
-  actual: "₹2000"
-  discount: "100%"
-  offerTime: "forever"
-level: "Simple"
-payment_id: "pl_MNvCIAPAfI9j5Y"
+  price: "₹1499"
+  actual: "₹3748"
+  discount: "60%"
+  offerTime: "limited"
+level: "Intermediate"
+payment_id: "pl_MZMKrcmRB0g6TF"
 ---
 
 This exciting course will equip students with the essential skills
