@@ -8,13 +8,13 @@
           <div class="mw-800 text-center">
             <h1 class="mb-3 fs4">
               Learn <span class="text-primary">image processing</span> with
-              <span class="text-primary">OpenCV</span> & earn a free
+              <span class="text-primary">OpenCV</span> & earn a
               <span class="text-decoration-underline">CERTIFICATE</span>
             </h1>
             <div class="d-flex justify-content-center my-2">
               <h6 style="max-width: 400px">
-                Participate in free OpenCV workshops that accelerate your
-                learning with OpenCV examples
+                Join our premium OpenCV workshops that expedite your learning
+                journey with practical examples and expert guidance.
               </h6>
             </div>
           </div>
@@ -191,9 +191,8 @@
       <div class="col-lg-8 offset-lg-2 text-center">
         <h1 class="mb-0">Blog</h1>
       </div>
-      {{ range where .Site.Pages "Section" "blog" }}
-        {{ partial "blog/list.html" . }}
-        {{ end }}
+      {{ range where .Site.Pages "Section" "blog" }} {{ partial "blog/list.html"
+      . }} {{ end }}
     </div>
   </div>
 </div>
