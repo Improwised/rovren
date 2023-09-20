@@ -45,17 +45,10 @@
           Date
         </div>
         <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark mt-3">
-          <div style="position:relative">
-            <div
-                  style="position: absolute;
-                  background-color: {{ .Params.color }};
-                  transform: rotate(12deg);
-                  color: black;
-                  right:-15px;
-                  top:-23px;
-                  padding: 9px 15px;
-                  font-size: 15px;
-                  border-radius: 15px;"
+          <div class="tag-position">
+            <div class="discount-tag"
+                  style="
+                  background-color: {{ .Params.color }}"
                 >
                   {{ .Params.pricingDetails.discount }} Off
                 </div>
