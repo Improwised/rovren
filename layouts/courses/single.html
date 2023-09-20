@@ -44,7 +44,22 @@
           <h3>{{.Params.courseDate}}</h3>
           Date
         </div>
-        <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark">
+        <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark mt-3">
+          <div style="position:relative">
+            <div
+                  style="position: absolute;
+                  background-color: {{ .Params.color }};
+                  transform: rotate(12deg);
+                  color: white;
+                  right:-15px;
+                  top:-23px;
+                  padding: 10px 20px;
+                  font-size: 18px;
+                  border-radius: 15px;"
+                >
+                  {{ .Params.pricingDetails.discount }} Off
+                </div>
+          </div>
           <h3>{{ .Params.pricingDetails.price }}</h3>
           <h6 class="text-secondary m-0">
             <s class="text-secondary">{{ .Params.pricingDetails.actual }}</s
