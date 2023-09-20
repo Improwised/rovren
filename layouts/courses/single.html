@@ -44,8 +44,21 @@
           <h3>{{.Params.courseDate}}</h3>
           Date
         </div>
-        <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark">
+        <div class="mx-2 rounded py-3 mb-3 text-center bs-2 bg-white text-dark mt-3">
+          <div class="tag-position">
+            <div class="discount-tag"
+                  style="
+                  background-color: {{ .Params.color }}"
+                >
+                  {{ .Params.pricingDetails.discount }} Off
+                </div>
+          </div>
           <h3>{{ .Params.pricingDetails.price }}</h3>
+          <h6 class="text-secondary m-0">
+            <s class="text-secondary">{{ .Params.pricingDetails.actual }}</s
+            >&nbsp;<span>({{ .Params.pricingDetails.discount }} off)</span>
+          </h6>
+          ({{ .Params.pricingDetails.offerTime }})<br />
           Pricing
         </div>
         {{ if .Params.isPaymentStartAccepting }}

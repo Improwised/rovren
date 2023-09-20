@@ -13,21 +13,13 @@
           href="{{.Permalink}}"
           style="text-decoration: none; border-bottom: 1px solid #aaa"
         >
-          <div class="border-bottom mb-3" style="position: relative">
+          <div class="border-bottom mb-3 tag-position">
             <img
               src="/images/courses/{{ .Params.image }}"
               style="width: 100%; height: auto"
             />
-            <div
-              style="position: absolute;
-              top: -12px;
-              right: -10px;
-              background-color: {{ .Params.color }};
-              transform: rotate(12deg);
-              color: white;
-              padding: 10px 20px;
-              font-size: 18px;
-              border-radius: 15px;"
+            <div class="discount-tag-listpage"
+              style="background-color: {{ .Params.color }}"
             >
               {{ .Params.pricingDetails.discount }} Off
             </div>
@@ -67,6 +59,11 @@
               </td>
             </tr>
           </table>
+        </div>
+        <div class="mb-3 text-center">
+          <a href="{{.Permalink}}">
+            <button class="btn btn-primary btn-lg">Explore</button>
+          </a>
         </div>
       </div>
     </div>
