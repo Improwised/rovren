@@ -135,3 +135,26 @@ form .PaymentButton-contents .PaymentButton-text {
   font-size: 18px;
   border-radius: 15px;
 }
+
+@media only screen and (min-width: 915px) {
+  .carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 3rem !important;
+    height: 5rem !important;
+  }
+  
+  .carousel-control-prev {
+    margin-left: -130px;
+  }
+  
+  .carousel-control-next {
+    margin-right: -130px;
+  }
+}
+
+.carousel-indicators {
+   bottom: -50px !important;
+}
+
+img{
+  max-width: 100%;
+}
