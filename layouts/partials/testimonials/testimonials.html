@@ -1,0 +1,67 @@
+<div class="col-md-6">
+  <div class="">
+    <div class="d-flex bs-2 rounded bg-white flex-wrap">
+      <div class="">
+        <div class="text-start mt-4 px-5" style="display: flex">
+          {{ $image := resources.Get "images/bhavya.jpg" }} {{ $image :=
+          $image.Resize "x100" }} {{ with $image }}
+          <img
+            src="{{ .RelPermalink }}"
+            alt="bhavya - opencv past participant"
+          />
+          {{ end }}
+          <div class="px-3 mt-4">
+            <h3>Bhavya J Patel</h3>
+            <p>Student</p>
+          </div>
+        </div>
+      </div>
+      <p class="card-text px-5 py-4">
+        <q>
+          From June 19th to June 23rd, I engaged in an immersive learning
+          opportunity centered on image processing techniques. This workshop was
+          a profound educational journey that greatly enhanced my expertise and
+          insight in this domain. It encompassed a wide range of subjects,
+          beginning with basic image manipulations like filtering and
+          thresholding, and advancing to more sophisticated topics including
+          feature extraction and object detection. The content was both thorough
+          and captivating, rendering it an invaluable and enriching experience.
+        </q>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-6">
+  <div class="">
+    <div class="d-flex bs-2 rounded bg-white flex-wrap">
+      <div class="">
+        <div class="text-start mt-4 px-5" style="display: flex">
+          {{ $image := resources.Get "images/nensi.jpg" }} {{ $image :=
+          $image.Resize "x100" }} {{ with $image }}
+          <img
+            src="{{ .RelPermalink }}"
+            alt="bhavya - opencv past participant"
+          />
+          {{ end }}
+          <div class="px-3 mt-4">
+            <h3>Nensi Ravaliya</h3>
+            <p>Student</p>
+          </div>
+        </div>
+      </div>
+      <p class="card-text px-5 py-4">
+        <q>
+          I want to express my gratitude for the recent Image Processing course
+          we finished. It spanned a broad range of subjects, from OpenCV and
+          image classification to the fundamentals of machine learning, object
+          detection, and segmentation. I'd like to share feedback on this
+          enriching learning journey. The course's comprehensive content,
+          engaging interactions, and industry relevance, particularly its focus
+          on real-world applications in machine learning, object detection, and
+          segmentation, made it highly valuable for industry needs.</q
+        >
+      </p>
+    </div>
+  </div>
+</div>

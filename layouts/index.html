@@ -383,6 +383,21 @@
   </div>
 </div>
 
+<div class="py-5 mt-1" id="testimonials">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 offset-lg-3 text-center">
+        <h1 class="pb-3">Testimonials</h1>
+      </div>
+    </div>
+    <div class="row">
+     {{ partial "testimonials/testimonials.html"}}
+    </div>
+  </div>
+</div>
+<hr>
+  
+
 <!-- redirect to /zh if browser language is chinese -->
 <script>
   var language = navigator.language || navigator.userLanguage;
