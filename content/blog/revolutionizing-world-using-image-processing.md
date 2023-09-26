@@ -7,13 +7,17 @@ image: ""
 metaTitle: "Revolutionizing world using image processing | OpenCV Courses"
 metaDes: "Image processing plays a pivotal role in a variety of sectors, and with the burgeoning growth of digitalization and artificial intelligence, its importance is only set to increase."
 weight: 1
+image: "revolutionizing.png"
 ---
 
 Image processing plays a pivotal role in a variety of sectors, and with the burgeoning growth of digitalization and artificial intelligence, its importance is only set to increase. Here are a few reasons why learning image processing, especially within the Indian market, is crucial<!--more--> :
 
 **Technology and Innovation:**  
 Image processing is a crucial aspect of machine vision and artificial intelligence, fields experiencing significant global growth. By learning image processing, individuals can contribute to innovative solutions that can transform industries.
-
+<!-- ![Example image](/images/blog/revolutionizing.png) -->
+<!-- {width="200" alt="Gravel Calls" class="center"} -->
+{{< figure src="/images/blog/revolutionizing.png" width="600" alt="Gravel Calls" class="center" >}}
+<!-- <img src="/images/logo.png" alt="Image Alt Text" /> -->
 **Healthcare:**  
 In healthcare, image processing aids diagnosis and treatment, particularly in medical imaging technologies like MRI and CT scans. With India's healthcare sector aiming for increased digitization, expertise in image processing can contribute significantly to improving healthcare outcomes.
 
