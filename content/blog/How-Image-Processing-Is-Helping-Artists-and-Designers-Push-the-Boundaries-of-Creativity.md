@@ -9,9 +9,9 @@ metaDes: "Image processing is a powerful tool that may be used to create stunnin
 weight: 5 
 ---
 
-Image processing is a powerful tool that may be used to create stunning art and designs. It lets  artists and designers control pictures in ways that had been in no way earlier than viable.
+Image processing is a powerful tool that may be used to create stunning art and designs. It lets  artists and designers control pictures in ways that had been in no way earlier than viable. <!--more-->
 
-One of the most famous make use of of image processing in artwork and design is to create photorealistic photographs. This is completed by using photo processing algorithms to combine multiple pictures collectively to create an unmarried image that is more sensible than any of the individual snapshots. <!--more-->
+One of the most famous make use of of image processing in artwork and design is to create photorealistic photographs. This is completed by using photo processing algorithms to combine multiple pictures collectively to create an unmarried image that is more sensible than any of the individual snapshots. 
 
 {{< figure src="/images/blog/art2.png" width="600" alt="Gravel Calls" class="text-center" >}}
 
