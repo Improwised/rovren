@@ -20,7 +20,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6 offset-lg-3 text-center">
-        <h1 class="pb-5 text-white">Courses</h1>
+        <h1 class="pb-5 text-white">{{ .Site.Params.courses }}</h1>
       </div>
     </div>
     <section class="wave-bk bg--">
@@ -35,13 +35,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6 offset-lg-3 text-center">
-        {{ if eq .Site.Language.Lang "en" }}
-        <h1 class="pb-2 text-black">Memory Gallery</h1>
-        <h6 class="pb-3 text-black">Glimpse of past workshops</h6>
-        {{ else if eq .Site.Language.Lang "zh" }}
-        <h1 class="pb-2 text-black">記憶畫廊</h1>
-        <h6 class="pb-3 text-black">往期工作坊一覽</h6>
-        {{ end }}
+        <h1 class="pb-2 text-black">{{ .Site.Params.gallery }}</h1>
+        <h6 class="pb-3 text-black">{{ .Site.Params.gallerydescription }}</h6>
       </div>
     </div>
     <section class="wave-bk bg--">
@@ -248,7 +243,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 offset-lg-2 text-center">
-        <h1 class="mb-0">Blog</h1>
+        <h1 class="mb-0">{{ .Site.Params.blog }}</h1>
       </div> 
       {{ range where .Site.Pages "Section" "blog" }}
         {{ partial "blog/list.html" . }}
@@ -259,25 +254,18 @@
 
 <div class="py-5 mt-1" id="testimonials">
   <div class="container">
-    {{ if eq .Site.Language.Lang "en" }}
     <div class="row">
       <div class="col-lg-6 offset-lg-3 text-center">
-        <h1 class="pb-3">Testimonials</h1>
+        <h1 class="pb-3">{{ .Site.Params.testimonials }}</h1>
       </div>
     </div>
     <div class="row">
+      {{ if eq .Site.Language.Lang "en" }}
      {{ partial "testimonials/testimonials.en.html"}}
-    </div>
-    {{ else if eq .Site.Language.Lang "zh" }}
-    <div class="row">
-      <div class="col-lg-6 offset-lg-3 text-center">
-        <h1 class="pb-3">感言</h1>
-      </div>
-    </div>
-    <div class="row">
+     {{ else if eq .Site.Language.Lang "zh" }}
      {{ partial "testimonials/testimonials.zh.html"}}
+     {{ end }}
     </div>
-    {{ end }}
   </div>
 </div>
 <hr>

@@ -9,6 +9,11 @@ title = "OpenCV Courses"
 weight = 0
 languagename = "English"
 description = 'Learn image processing with OpenCV & earn a free CERTIFICATE'
+courses = "Courses"
+gallery = "Memory Gallery"
+gallerydescription = "Glimpse of past workshops"
+testimonials = "Testimonials"
+blog = "Blog"
 
 
 [Languages.zh]
@@ -16,3 +21,8 @@ title = "OpenCV Courses"
 weight = 1
 languagename = "Chinese"
 description = '使用 OpenCV 學習圖像處理並獲得免費證書'
+courses = "培訓班"
+gallery = "記憶畫廊"
+gallery-description = "往期工作坊一覽"
+testimonials= "感言"
+blog = "部落格"
