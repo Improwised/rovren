@@ -1,5 +1,5 @@
 ---
-title: "Revolutionizing World Using Image Processing"
+title: "Transforming the World through the Revolutionary Applications of Image Processing Technology"
 date: 2023-08-08T16:17:34+05:30
 draft: false
 width: 12
