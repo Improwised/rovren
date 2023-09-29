@@ -1,5 +1,18 @@
-baseURL = '/'
-languageCode = 'en-us'
-title = 'OpenCV Courses'
-[Params]
+
+baseURL = "/"
+DefaultContentLanguage = "en"
+hasCJKLanguage = true
+
+[Languages]
+[Languages.en]
+title = "OpenCV Courses"
+weight = 0
+languagename = "English"
 description = 'Learn image processing with OpenCV & earn a free CERTIFICATE'
+
+
+[Languages.zh]
+title = "OpenCV Courses"
+weight = 1
+languagename = "Chinese"
+description = '使用 OpenCV 學習圖像處理並獲得免費證書'
