@@ -6,6 +6,7 @@ width: 12
 image: "pedestrians.gif"
 metaTitle: "How Image Processing Is Helping Self Driving Cars Navigate the Road to the Future | Open CV Courses"
 metaDes: "Image processing is a critical technology for self-driving cars, autonomous vehicles, enabling them to perceive their surroundings and navigate safely. Here, we explore the specific ways in which image processing is used in self-driving cars, including lane keeping, obstacle detection, traffic signal recognition, and free space detection. We also discuss how image processing is helping to make self-driving cars more robust and reliable in challenging conditions. | auto driving | "
+weight: 4
 ---
 
 Image processing is crucial for self-using vehicles to understand their environment and navigate correctly. It entails the use of algorithms to analyze pix from cameras and extract statistics approximately the environment, consisting of the presence of different motors, pedestrians, site visitors’ symptoms, and lane markings. <!--more-->

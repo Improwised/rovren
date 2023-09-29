@@ -6,6 +6,7 @@ width: 12
 image: "art1.jpg"
 metaTitle: "How Image Processing Is Helping Artists and Designers Push the Boundaries of Creativity | Open cv Courses"
 metaDes: "Image processing is a powerful tool that may be used to create stunning art and designs. It lets  artists and designers control pictures in ways that had been in no way earlier than viable. | Art | Design"
+weight: 5 
 ---
 
 Image processing is a powerful tool that may be used to create stunning art and designs. It lets  artists and designers control pictures in ways that had been in no way earlier than viable. <!--more-->

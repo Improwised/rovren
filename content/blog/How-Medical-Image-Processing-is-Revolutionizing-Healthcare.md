@@ -6,6 +6,7 @@ width: 12
 image: "medicine2.png"
 metaTitle: "How Medical Image Processing Is Revolutionizing Healthcare | Open CV Courses"
 metaDes: "Medical image processing is a rapidly growing field that uses computer vision and machine learning techniques to analyze medical images. It has a wide range of applications in the medical field, including diagnosis, treatment planning, and research. | healthcare | medical | medicine"
+weight : 6
 ---
 
 Medical image processing is a rapidly growing field that uses computer vision and machine learning techniques to analyze medical images. It has a wide range of applications in the medical field, including diagnosis, treatment planning, and research. <!--more-->
