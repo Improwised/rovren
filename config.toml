@@ -3,11 +3,12 @@ baseURL = "/"
 DefaultContentLanguage = "en"
 hasCJKLanguage = true
 
-[Languages]
-[Languages.en]
+[languages]
+[languages.en]
 title = "OpenCV Courses"
 weight = 0
 languagename = "English"
+[languages.en.params]
 description = 'Learn image processing with OpenCV & earn CERTIFICATE'
 courses = "Courses"
 gallery = "Memory Gallery"
@@ -16,10 +17,11 @@ testimonials = "Testimonials"
 blog = "Blog"
 
 
-[Languages.zh]
+[languages.zh]
 title = "OpenCV Courses"
 weight = 1
 languagename = "Chinese"
+[languages.zh.params]
 description = '使用 OpenCV 學習影像處理並獲得證書'
 courses = "培訓班"
 gallery = "記憶畫廊"
