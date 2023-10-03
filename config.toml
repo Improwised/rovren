@@ -23,6 +23,6 @@ languagename = "Chinese"
 description = '使用 OpenCV 學習影像處理並獲得證書'
 courses = "培訓班"
 gallery = "記憶畫廊"
-gallery-description = "往期工作坊一覽"
+gallerydescription = "往期工作坊一覽"
 testimonials= "感言"
 blog = "部落格"
