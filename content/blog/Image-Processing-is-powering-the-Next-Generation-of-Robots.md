@@ -6,7 +6,6 @@ width: 12
 image: "robot.jpg"
 metaTitle: "Image Processing Is Powering the Next Generation of Robots | Open CV Courses"
 metaDes: "Image processing techniques enable robots to detect and recognize objects in their environment. By analyzing images from cameras or sensors, robots can identify and locate objects, which is crucial for tasks such as picking and placing items in manufacturing or navigating through cluttered environments. | robotics | robot | image processing"
-weight : 7 
 ---
 
 Image processing plays a vital role in robotics by providing robots with the ability to interpret and understand their surroundings through visual data. Here's how image processing is helping in robotics

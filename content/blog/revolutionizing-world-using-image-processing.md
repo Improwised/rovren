@@ -6,7 +6,6 @@ width: 12
 image: "revolutionizing.png" 
 metaTitle: "Revolutionizing world using image processing | OpenCV Courses"
 metaDes: "Image processing plays a pivotal role in a variety of sectors, and with the burgeoning growth of digitalization and artificial intelligence, its importance is only set to increase."
-weight: 1
 ---
 
 Image processing plays a pivotal role in a variety of sectors, and with the burgeoning growth of digitalization and artificial intelligence, its importance is only set to increase. Here are a few reasons why learning image processing, especially within the Indian market, is crucial. <!--more-->

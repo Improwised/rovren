@@ -6,7 +6,6 @@ width: 12
 image: "growing_IP.png"
 metaTitle: "Cashing in on Image Processing Skills: A Look into the Future of the Indian Market | OpenCV Courses"
 metaDes: "At the intersection of computer science and mathematics, image processing has become an essential component of various industries and technologies, creating a lucrative pathway for skilled individuals, particularly in the thriving Indian market."
-weight: 2
 ---
 
  The unprecedented digital revolution currently transforming our world has placed a spotlight on an often overlooked but vital skill set: _image processing_. At the intersection of computer science and mathematics, image processing has become an essential component of various industries and technologies, creating a lucrative pathway for skilled individuals, particularly in the thriving Indian market.<!--more-->

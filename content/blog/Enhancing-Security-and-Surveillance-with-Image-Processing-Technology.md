@@ -6,7 +6,6 @@ width: 12
 image: "security-camera.jpg"
 metaTitle: "Enhancing Security and Surveillance with Image Processing Technology | Open CV Courses | camera "
 metaDes: "In a rapidly evolving world, security and surveillance have become paramount concerns. To address these issues effectively, technology has played a pivotal role. One of the most groundbreaking technological advancements contributing to this field is image processing. In this blog, we will explore how image processing is revolutionizing security and surveillance. | surveillance camera | security camera | camera | cctv | cctv camera"
-weight : 8
 ---
 
 In a rapidly evolving world, security and surveillance have become paramount concerns. To address these issues effectively, technology has played a pivotal role. One of the most groundbreaking technological advancements contributing to this field is image processing. In this blog, we will explore how image processing is revolutionizing security and surveillance. <!--more-->
