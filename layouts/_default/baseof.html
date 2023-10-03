@@ -84,15 +84,9 @@
     />
   </head>
   <body>
-    {{ if eq .Site.Language.Lang "en" }}
-          {{ partial "navigation.en.html" . }}
-          {{ else if eq .Site.Language.Lang "zh" }}
-          {{ partial "navigation.zh.html" . }}
-          {{ end }} {{ block "main" . }}
+    {{ partial "navigation.html" . }} {{ block "main" . }}
     <!-- Main Content -->
-    {{ end }} 
-    {{ partial "footer.html" . }}
-    
+    {{ end }} {{ partial "footer.html" . }}
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"

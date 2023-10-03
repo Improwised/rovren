@@ -280,8 +280,8 @@
   var language = navigator.language || navigator.userLanguage;
   language = language.substring(0, 2);
 
-  if (language == "zh" && !sessionStorage.getItem('redirectedToChinese')) {
-  sessionStorage.setItem('redirectedToChinese', 'true');
+  if (language == "zh" && !window.location.pathname.includes('/zh')) {
+  // sessionStorage.setItem('redirectedToChinese', 'true');
   window.location.href = "/zh";
 }
 </script>
