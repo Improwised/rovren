@@ -229,12 +229,15 @@
 <div class="py-5" id="why_us">
   <div class="container">
     <div class="row">
-      
-      {{ if eq .Site.Language.Lang "en" }}
-      {{ partial "whyus/whyus.en.html" . }}
-      {{ else if eq .Site.Language.Lang "zh" }}
-      {{ partial "whyus/whyus.zh.html" . }}
-      {{ end }}
+      <div class="col-lg-8 offset-lg-2 text-center">
+        <h1 class="mb-5">{{ .Site.Params.whyus}}</h1>
+      </div>
+      <div class="col-lg-8 offset-lg-2">
+        {{ $whyUsPage := .Site.GetPage "whyus.md" }}
+        {{ with $whyUsPage.Content }}
+          {{ . }}
+        {{ end }}
+      </div>
     </div>
   </div>
 </div>
