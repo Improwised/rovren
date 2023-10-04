@@ -24,25 +24,25 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="/courses">Courses</a>
+          <a class="nav-link" href="{{.RelPermalink}}courses">{{.Site.Params.courses}}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#memories">Gallery</a>
+          <a class="nav-link" href="{{.RelPermalink}}#memories">{{ .Site.Params.navgallery }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#experts">Experts</a>
+          <a class="nav-link" href="{{.RelPermalink}}#experts">{{ .Site.Params.experts }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#why_us">Why Us</a>
+          <a class="nav-link" href="{{.RelPermalink}}#why_us">{{ .Site.Params.whyus }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/blog">Blog</a>
+          <a class="nav-link" href="{{.RelPermalink}}blog">{{ .Site.Params.blog }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#testimonials">Testimonials</a>
+          <a class="nav-link" href="{{.RelPermalink}}#testimonials">{{ .Site.Params.testimonials }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#contact_us">Contact Us</a>
+          <a class="nav-link" href="{{.RelPermalink}}#contact_us">{{ .Site.Params.contactus }}</a>
         </li>
       </ul>
     </div>

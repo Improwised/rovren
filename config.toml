@@ -1,5 +1,40 @@
-baseURL = '/'
-languageCode = 'en-us'
-title = 'OpenCV Courses'
-[Params]
-description = 'Learn image processing with OpenCV & earn a free CERTIFICATE'
+
+baseURL = "/"
+DefaultContentLanguage = "en"
+hasCJKLanguage = true
+
+[languages]
+[languages.en]
+title = "OpenCV Courses"
+weight = 0
+languagename = "English"
+[languages.en.params]
+description = 'Learn image processing with OpenCV & earn CERTIFICATE'
+courses = "Courses"
+gallery = "Memory Gallery"
+navgallery = "Gallery"
+gallerydescription = "Glimpse of past workshops"
+testimonials = "Testimonials"
+blog = "Blog"
+footer = "All rights reserved."
+whyus = "Why Us"
+experts = "Experts"
+contactus = "Contact Us"
+
+
+[languages.zh]
+title = "OpenCV Courses"
+weight = 1
+languagename = "Chinese"
+[languages.zh.params]
+description = '使用 OpenCV 學習影像處理並獲得證書'
+courses = "培訓班"
+gallery = "記憶畫廊"
+navgallery = "畫廊"
+gallerydescription = "往期工作坊一覽"
+testimonials= "感言"
+blog = "部落格"
+footer = "版權所有"
+whyus = "為什麼是我們" 
+experts = "專家"
+contactus = "聯絡我們"
