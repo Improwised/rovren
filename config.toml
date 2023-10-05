@@ -2,6 +2,7 @@
 baseURL = "/"
 DefaultContentLanguage = "en"
 hasCJKLanguage = true
+paginate = 9
 
 [languages]
 [languages.en]
