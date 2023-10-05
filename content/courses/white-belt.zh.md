@@ -10,6 +10,7 @@ metaDes: "White Belt | OpenCV Courses"
 duration: "1.5 hours / day"
 courseDate: "Announcing soon"
 isPaymentStartAccepting: false
+isActiveWaitListButton: true
 steps:
   - name: "Segmentation"
     description: "Discover additional methods in isolating objects within an image with techniques such as Texture Analysis, Edge Detection, and Contours."
@@ -27,9 +28,9 @@ steps:
     description: "See how a practical ribbon color application is built using concepts learned throughout this course."
 weight: 2
 pricingDetails:
-  price: "₹1499"
-  actual: "₹3748"
-  discount: "60%"
+  price: "₹499"
+  actual: "₹1999"
+  discount: "75%"
   offerTime: "limited"
 level: "Intermediate"
 payment_id: "pl_MZMKrcmRB0g6TF"
