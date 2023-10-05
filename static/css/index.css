@@ -159,9 +159,6 @@ img{
   max-width: 100%;
 }
 
-/*************************************************/
-/* USE THE FOLLOWING CSS TO STYLE YOUR PAGINATOR */
-/*************************************************/
 .pagination {
   display: flex;
   list-style: none;
