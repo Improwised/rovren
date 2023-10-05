@@ -72,7 +72,7 @@
             </button>
           </a>
         </div>
-          {{ end }}
+        {{ end }}
         {{ if .Params.isPaymentStartAccepting }}
         <div class="mx-2 rounded mb-3 text-center bs-2 text-dark">
           <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="{{ .Params.payment_id }}" async> </script> </form>
@@ -102,16 +102,16 @@
   </div>
   {{ if .Params.isActiveWaitListButton }}
   <div class="text-center">
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform"
-            target="_blank"
-          >
-            <button class="btn btn-primary px-5 py-3 fs-5 w-40 mt-3 text-center">
-              Join the waitlist
-            </button>
-          </a>
-        </div>
-          {{ end }}
+    <a
+      href="https://docs.google.com/forms/d/e/1FAIpQLSeDdMXvzLtCWe1-X70aOIBW1NcplHN3eUzRrUkWMKCwMxtMMA/viewform"
+      target="_blank"
+    >
+      <button class="btn btn-primary px-5 py-3 fs-5 w-40 mt-3 text-center">
+        Join the waitlist
+      </button>
+    </a>
+  </div>
+  {{ end }} 
   {{ if .Params.isPaymentStartAccepting }}
   <div class="row">
     <div class="mx-2 rounded py-3 mb-3 text-center text-dark">
