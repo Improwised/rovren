@@ -3,7 +3,7 @@ title: "Yellow Belt"
 date: 2023-08-31T11:22:41+05:30
 draft: false
 width: 12
-image: "yellow-balt.png"
+image: "yellow-balt.webp"
 color: "#fbcc44"
 metaTitle: "Yellow Belt | OpenCV Courses"
 metaDes: "Yellow Belt | OpenCV Courses"
