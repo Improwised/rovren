@@ -10,6 +10,7 @@ metaDes: "Orange Belt | OpenCV Courses"
 duration: "1.5 hours / day"
 courseDate: "Announcing soon"
 isPaymentStartAccepting: false
+isActiveWaitListButton: false
 steps:
   - name: "Geometrical Transformations"
     description: "See how spatial transformations can alter images and how it relates to uses such as 3D imaging."
