@@ -1,37 +1,38 @@
 ---
-title: "How Image Processing Is Helping Self Driving Cars Navigate the Road to the Future"
+title: "影像處理如何幫助自動駕駛汽車駛向未來之路"
 date: 2023-09-27T12:18:35+05:30
 draft: false
 width: 12
 image: "pedestrians.gif"
-metaTitle: "How Image Processing Is Helping Self Driving Cars Navigate the Road to the Future | Open CV Courses"
-metaDes: "Image processing is a critical technology for self-driving cars, autonomous vehicles, enabling them to perceive their surroundings and navigate safely. Here, we explore the specific ways in which image processing is used in self-driving cars, including lane keeping, obstacle detection, traffic signal recognition, and free space detection. We also discuss how image processing is helping to make self-driving cars more robust and reliable in challenging conditions. | auto driving | "
+metaTitle: "影像處理如何幫助自動駕駛汽車駛向未來之路 | Open CV 
+培訓班"
+metaDes: "影像處理是自動駕駛汽車的關鍵技術，使它們能夠感知周圍環境並安全導航。在這裡，我們探討了影像處理在自動駕駛汽車中的具體應用方式，包括車道維持、障礙物偵測、交通號誌辨識和自由空間偵測。我們還討論了影像處理如何幫助自動駕駛汽車在充滿挑戰的條件下變得更加穩健和可靠。 |自動駕駛| "
 ---
 
-Image processing is crucial for self-using vehicles to understand their environment and navigate correctly. It entails the use of algorithms to analyze pix from cameras and extract statistics approximately the environment, consisting of the presence of different motors, pedestrians, site visitors’ symptoms, and lane markings. <!--more-->
+影像處理對於自動駕駛汽車了解其環境並正確導航至關重要。它需要使用演算法來分析攝影機中的像素並提取有關環境的統計數據，包括不同汽車、行人、現場訪客的症狀和車道標記的存在。 <!--更多-->
 
-Here are a few precise examples of how photograph processing is helpful in self-driving cars:
+以下是照片處理如何在自動駕駛汽車中發揮作用的一些具體範例：
 
-🚗🎶**Lane retaining:** Image processing may be used to music the lane markings on the street and make sure that the car stays within its lane. This is specially important on highways and curves.
+🚗🎶**車道保留：** 影像處理可用於為街道上的車道標記提供音樂，並確保汽車保持在車道內。這在高速公路和彎道上尤其重要。
 
- 🚧⚠️**Obstacle detection:** Image processing can be used to discover boundaries in the street, which includes different vehicles, pedestrians, and cyclists. This facilitates the car to avoid collisions and navigate safely thru site visitors.
+ 🚧⚠️**障礙物偵測：** 影像處理可用於發現街道中的邊界，其中包括不同的車輛、行人和騎自行車的人。這有助於汽車避免碰撞並安全地穿過現場訪客。
 
- 🛑🚦**Traffic signal reputation:** Image processing can be used to recognize site visitors signs and symptoms, which include forestall signs, speed limits, and yield symptoms. This facilitates the auto to obey the regulation and force competently.
+ 🛑🚦**交通號誌信譽：** 影像處理可用於識別站點訪客的跡象和症狀，其中包括禁止標誌、速度限制和屈服症狀。這有利於汽車遵守規則並有效地執行。
 
- 🚘🛣️**Free area detection:** Image processing can be used to discover areas of free area around the automobile. This helps the car to devise its direction and keep away from limitations.
+ 🚘🛣️**自由區域檢測：** 影像處理可用於發現汽車周圍的自由區域。這有助於汽車確定方向並擺脫限制。
 
-Image processing algorithms are commonly trained on massive datasets of snap shots and labels. This allows the algorithms to learn how to become aware of one-of-a-kind gadgets and functions in pictures with excessive accuracy.
+影像處理演算法通常在海量快照和標籤資料集上進行訓練。這使得演算法能夠學習如何非常準確地識別影像中獨一無二的裝置和功能。
 
-Self-using vehicles normally use a variety of sensors, inclusive of cameras, lidar, and radar. Image processing algorithms are used to fuse the records from those sensors to create a comprehensive information of the car's surroundings.
+自動駕駛車輛通常使用各種感測器，包括攝影機、光達和雷達。影像處理演算法用於融合這些感測器的記錄，以創建汽車周圍環境的全面資訊。
 
-Image processing is a hastily evolving subject, and new algorithms and strategies are being evolved all of the time. This is leading to sizable enhancements within the performance and reliability of self-driving cars.
+影像處理是一個快速發展的學科，新的演算法和策略一直在發展。這導致自動駕駛汽車的性能和可靠性大幅提高。
 
-Here are some more insights on how visualization helps in self-driving cars.
+以下是有關視覺化如何幫助自動駕駛汽車的更多見解。
 
-- Imaging services can be used to detect and track objects in real time, even in harsh conditions such as low light or adverse conditions.
+- 成像服務可用於即時檢測和追蹤物體，即使在低光源或不利條件等惡劣條件下也是如此。
 
-- Images can be used to detect objects that are not easily visible to the human eye, such as small animals or pedestrians behind obstacles
+- 影像可用於偵測人眼不易看到的物體，例如障礙物後面的小動物或行人
 
-- Imagery can be used to create 3D models of the vehicle’s surroundings, which can be used to maneuver its path and avoid collisions.
+- 影像可用於建立車輛周圍環境的 3D 模型，用於操縱其路徑並避免碰撞。
 
-Overall, image processing is an important technology for self-driving cars. This allows them to perceive their surroundings with greater accuracy and make safer travel decisions.
+總的來說，影像處理是自動駕駛汽車的重要技術。這使他們能夠更準確地感知周圍環境並做出更安全的旅行決定。
