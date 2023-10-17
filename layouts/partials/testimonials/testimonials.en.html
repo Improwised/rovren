@@ -3,15 +3,17 @@
     <div class="d-flex bs-2 rounded bg-white flex-wrap">
       <div class="">
         <div class="text-start mt-4 px-5" style="display: flex">
-          {{ $image := resources.Get "images/bhavya.jpg" }} {{ $image :=
+          {{ $image := resources.Get "images/bhavya.webp" }} {{ $image :=
           $image.Resize "x100" }} {{ with $image }}
           <img
             src="{{ .RelPermalink }}"
+            height="106" width="108"
+            class="object-fit-cover"
             alt="bhavya - opencv past participant"
           />
           {{ end }}
           <div class="px-3 mt-4">
-            <h3>Bhavya J Patel</h3>
+            <h1 class="h3">Bhavya J Patel</h1>
             <p>Student</p>
           </div>
         </div>
@@ -37,15 +39,17 @@
     <div class="d-flex bs-2 rounded bg-white flex-wrap">
       <div class="">
         <div class="text-start mt-4 px-5" style="display: flex">
-          {{ $image := resources.Get "images/nensi.jpg" }} {{ $image :=
+          {{ $image := resources.Get "images/nensi.webp" }} {{ $image :=
           $image.Resize "x100" }} {{ with $image }}
           <img
             src="{{ .RelPermalink }}"
+            height="106" width="108"
+            class="object-fit-cover"
             alt="bhavya - opencv past participant"
           />
           {{ end }}
           <div class="px-3 mt-4">
-            <h3>Nensi Ravaliya</h3>
+            <h1 class="h3">Nensi Ravaliya</h1>
             <p>Student</p>
           </div>
         </div>

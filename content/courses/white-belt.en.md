@@ -3,7 +3,7 @@ title: "White Belt"
 date: 2023-08-31T11:22:25+05:30
 draft: false
 width: 12
-image: "white-balt.png"
+image: "white-balt.webp"
 color: "#cfcfcf"
 metaTitle: "White Belt | OpenCV Courses"
 metaDes: "White Belt | OpenCV Courses"

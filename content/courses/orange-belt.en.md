@@ -3,7 +3,7 @@ title: "Orange Belt"
 date: 2023-08-31T11:22:48+05:30
 draft: true
 width: 12
-image: "orange-balt.png"
+image: "orange-balt.webp"
 color: "#ff9a23"
 metaTitle: "Orange Belt | OpenCV Courses"
 metaDes: "Orange Belt | OpenCV Courses"

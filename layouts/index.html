@@ -36,7 +36,7 @@
     <div class="row">
       <div class="col-lg-6 offset-lg-3 text-center">
         <h1 class="pb-2 text-black">{{ .Site.Params.gallery }}</h1>
-        <h6 class="pb-3 text-black">{{ .Site.Params.gallerydescription }}</h6>
+        <h1 class="pb-3 text-black h6">{{ .Site.Params.gallerydescription }}</h1>
       </div>
     </div>
     <section class="wave-bk bg--">
@@ -111,23 +111,23 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item  text-center active">
-            {{ $image := resources.Get "images/memory-gallery/opencv-moment1.png" }}
+            {{ $image := resources.Get "images/memory-gallery/opencv-moment1.webp" }}
+            {{ $image := $image.Resize "x700" }}
+            {{ with $image
+            }}
+            <img src="{{ .RelPermalink }}" class="object-fit-cover" alt="Image processing workshop by opencv">
+            {{ end }}
+          </div>
+          <div class="carousel-item text-center" >
+            {{ $image := resources.Get "images/memory-gallery/opencv-moment2.webp" }}
             {{ $image := $image.Resize "x700" }}
             {{ with $image
             }}
             <img src="{{ .RelPermalink }}" alt="Image processing workshop by opencv">
             {{ end }}
           </div>
-          <div class="carousel-item text-center" >
-            {{ $image := resources.Get "images/memory-gallery/opencv-moment2.png" }}
-            {{ $image := $image.Resize "x700" }}
-            {{ with $image
-            }}
-            <img src="{{ .RelPermalink }}" alt="Image processing workshop by opencv">
-            {{ end }}
-          </div>
           <div class="carousel-item text-center">
-            {{ $image := resources.Get "images/memory-gallery/opencv-moment3.png" }}
+            {{ $image := resources.Get "images/memory-gallery/opencv-moment3.webp" }}
             {{ $image := $image.Resize "x700" }}
              {{ with $image
             }}
@@ -135,7 +135,7 @@
             {{ end }}
           </div>
           <div class="carousel-item text-center" >
-            {{ $image := resources.Get "images/memory-gallery/opencv-moment4.png" }}
+            {{ $image := resources.Get "images/memory-gallery/opencv-moment4.webp" }}
             {{ $image := $image.Resize "x700" }}
              {{ with $image
             }}
@@ -143,7 +143,7 @@
             {{ end }}
           </div>
           <div class="carousel-item text-center" >
-            {{ $image := resources.Get "images/memory-gallery/opencv-moment5.png" }}
+            {{ $image := resources.Get "images/memory-gallery/opencv-moment5.webp" }}
             {{ $image := $image.Resize "x700" }}
              {{ with $image
             }}
@@ -151,7 +151,7 @@
             {{ end }}
           </div>
           <div class="carousel-item text-center" >
-            {{ $image := resources.Get "images/memory-gallery/opencv-moment6.png" }}
+            {{ $image := resources.Get "images/memory-gallery/opencv-moment6.webp" }}
             {{ $image := $image.Resize "x700" }}
              {{ with $image
             }}
@@ -159,7 +159,7 @@
             {{ end }}
           </div>
           <div class="carousel-item text-center">
-            {{ $image := resources.Get "images/memory-gallery/opencv-moment7.png" }}
+            {{ $image := resources.Get "images/memory-gallery/opencv-moment7.webp" }}
             {{ $image := $image.Resize "x700" }}
              {{ with $image
             }}
@@ -167,7 +167,7 @@
             {{ end }}
           </div>
           <div class="carousel-item text-center">
-            {{ $image := resources.Get "images/memory-gallery/opencv-moment8.png" }}
+            {{ $image := resources.Get "images/memory-gallery/opencv-moment8.webp" }}
             {{ $image := $image.Resize "x700" }}
              {{ with $image
             }}
@@ -175,7 +175,7 @@
             {{ end }}
           </div>
           <div class="carousel-item text-center">
-            {{ $image := resources.Get "images/memory-gallery/opencv-moment9.png" }}
+            {{ $image := resources.Get "images/memory-gallery/opencv-moment9.webp" }}
             {{ $image := $image.Resize "x700" }}
              {{ with $image
             }}
@@ -183,7 +183,7 @@
             {{ end }}
           </div>
           <div class="carousel-item text-center">
-            {{ $image := resources.Get "images/memory-gallery/opencv-moment10.png" }}
+            {{ $image := resources.Get "images/memory-gallery/opencv-moment10.webp" }}
             {{ $image := $image.Resize "x700" }}
              {{ with $image
             }}
