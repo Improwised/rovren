@@ -17,7 +17,8 @@
             <img
               src="/images/courses/{{ .Params.image }}"
               height="345" width="406"
-              style="width: 100%; height: auto;"
+              class="w-100"
+              style="height: auto;"
               alt="Courses"
             />
             <div class="discount-tag-listpage"
@@ -26,7 +27,7 @@
               {{ .Params.pricingDetails.discount }} Off
             </div>
           </div>
-          <h1 class="text-black mb-3 text-center h3-font" style="text-decoration: none">
+          <h1 class="text-black mb-3 text-center h3" style="text-decoration: none">
             <span
               style="text-decoration: none; border-bottom: 3px solid {{ .Params.color }};"
             >
@@ -49,8 +50,8 @@
             <tr>
               <td colspan="2" class="text-center pt-3">
                 <strong>Pricing</strong><br />
-                <h1 class="h3-font">{{ .Params.pricingDetails.price }}</h1>
-                <h1 style="font-size: 1rem;" class="text-secondary m-0">
+                <h1 class="h3">{{ .Params.pricingDetails.price }}</h1>
+                <h1 class="text-secondary m-0 h6">
                   <s class="text-secondary"
                     >{{ .Params.pricingDetails.actual }}</s
                   >&nbsp;<span

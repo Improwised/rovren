@@ -1,6 +1,6 @@
 {{ range .Paginator.Pages }}
 <div class="col-lg-4">
-  <h1 style="font-size: 1.5rem; text-decoration: underline; cursor: pointer;" class="mt-5"><a style="color: white;" href="{{ .Permalink }}">{{ .Title }}</a></h1>
+  <h1 style="cursor: pointer;" class="mt-5 text-decoration-underline h4"><a class="text-white" href="{{ .Permalink }}">{{ .Title }}</a></h1>
   <p>{{ .Summary }}</p>
 </div>
 {{ end }}
