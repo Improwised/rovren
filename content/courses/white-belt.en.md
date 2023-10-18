@@ -28,9 +28,9 @@ steps:
     description: "See how a practical ribbon color application is built using concepts learned throughout this course."
 weight: 2
 pricingDetails:
-  price: "₹499"
+  price: "₹199"
   actual: "1999"
-  discount: "75%"
+  discount: "90%"
   offerTime: "limited"
 level: "Intermediate"
 payment_id: "pl_MZMKrcmRB0g6TF"
