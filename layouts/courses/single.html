@@ -76,7 +76,7 @@
         {{ if .Params.isPaymentStartAccepting }}
         <div class="mx-2 rounded mb-3 text-center bs-2 text-dark">
           <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="{{ .Params.payment_id }}" async> </script> </form>
-          <span class="text-white fs10 lg1">Payment processed by Improwsied Technologies Pvt. Ltd.</span>
+          <div class="text-white fs12">Payments will be accepted by credit card, debit card, and wallets only and processed by Improwsied Technologies Pvt. Ltd.</div>
         </div>
         {{ end }}
       </div>
@@ -118,7 +118,7 @@
       <div class="d-flex align-items-center justify-content-center">
         <div>
           <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="{{ .Params.payment_id }}" async> </script> </form>
-          <span class="fs10">Payment processed by Improwsied Technologies Pvt. Ltd.</span>
+          <div class="fs10" style="width: 230px">Payments will be accepted by credit card, debit card, and wallets only and processed by Improwsied Technologies Pvt. Ltd.</div>
         </div>
       </div>
     </div>

@@ -101,6 +101,11 @@ form .PaymentButton-contents .PaymentButton-text {
   font-style: italic;
 }
 
+.fs12 {
+  font-size: 12px;
+  font-style: italic;
+}
+
 .lg1 {
   line-height: 1;
 }
