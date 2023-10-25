@@ -8,7 +8,7 @@ color: "#cfcfcf"
 metaTitle: "White Belt | OpenCV Courses"
 metaDes: "White Belt | OpenCV Courses"
 duration: "1.5 hours / day"
-courseDate: "Announcing soon"
+courseDate: "30 October 2023"
 isPaymentStartAccepting: true
 isActiveWaitListButton: false
 steps:
