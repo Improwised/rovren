@@ -35,3 +35,8 @@ Here are some more insights on how visualization helps in self-driving cars.
 - Imagery can be used to create 3D models of the vehicle’s surroundings, which can be used to maneuver its path and avoid collisions.
 
 Overall, image processing is an important technology for self-driving cars. This allows them to perceive their surroundings with greater accuracy and make safer travel decisions.
+
+----------------------------------------------------------------------------------------------
+
+## Eager to learn such exciting skills? 
+Head on to our courses at [White Belt Open CV Courses](https://opencv.courses/courses/white-belt/)
