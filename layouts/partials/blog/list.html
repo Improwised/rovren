@@ -1,7 +1,15 @@
+{{ if in .Permalink "/blog" }}
 {{ range .Paginator.Pages }}
 <div class="col-lg-4">
-  <h4 class="mt-5">{{ .Title }}</h4>
+  <h1 style="cursor: pointer;" class="mt-5 text-decoration-underline h4"><a class="text-black" href="{{ .Permalink }}">{{ .Title }}</a></h1>
   <p>{{ .Summary }}</p>
-  <a href="{{ .Permalink }}">Read More</a>
 </div>
+{{ end }}
+{{ else }}
+{{ range .Paginator.Pages }}
+<div class="col-lg-4">
+  <h1 style="cursor: pointer;" class="mt-5 text-decoration-underline h4"><a class="text-white" href="{{ .Permalink }}">{{ .Title }}</a></h1>
+  <p>{{ .Summary }}</p>
+</div>
+{{ end }}
 {{ end }}
