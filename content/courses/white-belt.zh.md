@@ -9,8 +9,8 @@ metaTitle: "White Belt | OpenCV Courses"
 metaDes: "White Belt | OpenCV Courses"
 duration: "1.5 hours / day"
 courseDate: "Announcing soon"
-isPaymentStartAccepting: true
-isActiveWaitListButton: false
+isPaymentStartAccepting: false
+isActiveWaitListButton: true
 steps:
   - name: "Segmentation"
     description: "Discover additional methods in isolating objects within an image with techniques such as Texture Analysis, Edge Detection, and Contours."
