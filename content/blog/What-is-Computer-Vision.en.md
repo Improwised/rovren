@@ -3,7 +3,7 @@ title: "What Is Computer Vision?"
 date: 2023-11-16T12:14:41+05:30
 draft: false
 width: 12
-image: ""
+image: "computer-vision.jpg"
 metaTitle: "What Is Computer Vision? | Open CV Courses"
 metaDes: "Computer vision trains machines to perform these functions, but it has to do it in much less time with cameras, data and algorithms rather than retinas, optic nerves and a visual cortex. Because a system trained to inspect products or watch a production asset can analyze thousands of products or processes a minute, noticing imperceptible defects or issues, it can quickly surpass human capabilities"
 ---
