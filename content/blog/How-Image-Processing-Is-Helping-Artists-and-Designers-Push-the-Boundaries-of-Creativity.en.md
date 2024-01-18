@@ -12,13 +12,13 @@ Image processing is a powerful tool that may be used to create stunning art and 
 
 One of the most famous make use of of image processing in artwork and design is to create photorealistic photographs. This is completed by using photo processing algorithms to combine multiple pictures collectively to create an unmarried image that is more sensible than any of the individual snapshots. 
 
-{{< figure src="/images/blog/art2.png" width="600" alt="Gravel Calls" class="text-center" >}}
+{{< figure src="/images/blog/art2.webp" width="600" alt="Gravel Calls" class="text-center" >}}
 
 Another famous use of photo processing in artwork and design is to create stylized snapshots. This can be carried out through the use of photo processing algorithms to use specific consequences to pics, including changing the colors, textures, or shapes.
 
 Image processing also can be used to create abstract art. This can be carried out by using image processing algorithms to manipulate snapshots in approaches that are not realistic or representational.
 
-{{< figure src="/images/blog/art4.png" width="600" alt="Gravel Calls" class="text-center" >}}
+{{< figure src="/images/blog/art4.webp" width="600" alt="Gravel Calls" class="text-center" >}}
 
 Here are some particular examples of the way image processing is being used in art and design today:
 

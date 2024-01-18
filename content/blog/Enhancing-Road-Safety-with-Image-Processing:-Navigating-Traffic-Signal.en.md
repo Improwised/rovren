@@ -3,7 +3,7 @@ title: "Enhancing Road Safety With Image Processing: Navigating Traffic Signal"
 date: 2023-10-25T16:49:41+05:30
 draft: false
 width: 12
-image: "traffic-signal.jpg"
+image: "lane-detection.jpg"
 metaTitle: "Enhancing Road Safety With Image Processing: Navigating Traffic Signal | Open CV Courses"
 metaDes: "Traffic signals play a crucial role in regulating the flow of vehicles and pedestrians, ensuring order and safety on our roads. However, traditional traffic signals rely on fixed timing cycles, which may not always be efficient in adapting to real-time traffic conditions. This can lead to unnecessary waiting times, congestion, and even accidents. | Open CV Courses | traffic signal | traffic light"
 ---

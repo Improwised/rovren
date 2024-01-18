@@ -16,7 +16,7 @@ Image processing is a crucial aspect of machine vision and artificial intelligen
 ⚕️ **Healthcare:**
 In healthcare, image processing aids diagnosis and treatment, particularly in medical imaging technologies like MRI and CT scans. With India's healthcare sector aiming for increased digitization, expertise in image processing can contribute significantly to improving healthcare outcomes.
 
-{{< figure src="/images/blog/medical imaging.jpeg" width="600" alt="Gravel Calls" class="text-center" >}}
+{{< figure src="/images/blog/medical imaging.webp" width="600" alt="Gravel Calls" class="text-center" >}}
 
 🏭 **Automation:**
 From quality control in manufacturing to surveillance and security systems, image processing allows for enhanced automation capabilities. As India's manufacturing and IT sectors continue to grow, the demand for such skills will increase.

@@ -26,7 +26,7 @@ One of the first successful applications of neural networks to computer vision w
 
 Another important development in the 1980s was the Viola-Jones face detection algorithm. This algorithm is still widely used today for face detection in images and videos.
 
-{{< figure src="/images/blog/neural-networks-cv.png" width="600" alt="Gravel Calls" class="text-center" >}}
+{{< figure src="/images/blog/neural-networks-cv.webp" width="600" alt="Gravel Calls" class="text-center" >}}
 
 ### The Deep Learning Revolution (2000s-Present)
 
@@ -38,7 +38,7 @@ One of the most important breakthroughs in deep learning was the development of 
 
 CNNs have been used to achieve state-of-the-art performance on many computer vision tasks, and they are now the dominant approach to deep learning for computer vision.
 
-{{< figure src="/images/blog/deep-learning-cv.png" width="600" alt="Gravel Calls" class="text-center" >}}
+{{< figure src="/images/blog/deep-learning-cv.webp" width="600" alt="Gravel Calls" class="text-center" >}}
 
 
 ### The Future of Computer Vision

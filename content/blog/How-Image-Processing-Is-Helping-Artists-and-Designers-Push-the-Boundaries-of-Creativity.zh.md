@@ -12,13 +12,13 @@ metaDes: "影像處理是一種強大的工具，可用於創造令人驚嘆的�
 
 在藝術作品和設計中最著名的圖像處理用途之一是創建逼真的照片。這是透過使用照片處理演算法將多張照片組合在一起來創建比任何單一快照更有意義的單一影像來完成的。
 
-{{< figure src="/images/blog/art2.png" width="600" alt="Gravel Calls" class="text-center" >}}
+{{< figure src="/images/blog/art2.webp" width="600" alt="Gravel Calls" class="text-center" >}}
 
 照片處理在藝術作品和設計中的另一個著名用途是創建風格化快照。這可以透過使用照片處理演算法來對照片使用特定的效果來實現，包括改變顏色、紋理或形狀。
 
 影像處理也可用於創作抽象藝術。這可以透過使用影像處理演算法以不切實際或不具代表性的方法操作快照來實現。
 
-{{< figure src="/images/blog/art4.png" width="600" alt="Gravel Calls" class="text-center" >}}
+{{< figure src="/images/blog/art4.webp" width="600" alt="Gravel Calls" class="text-center" >}}
 
 以下是當今藝術和設計中使用圖像處理方式的一些具體範例：
 

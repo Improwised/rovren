@@ -17,7 +17,7 @@ metaDes: "影像處理在各個領域都發揮關鍵作用，隨著數位化和�
 在醫療保健領域，影像處理有助於診斷和治療，特別是在 MRI 和 CT 掃描等醫學影像技術中。隨著印度醫療保健產業致力於提高數位化水平，影像處理方面的專業知識可以為改善醫療保健結果做出重大貢獻。
 
 
-{{< figure src="/images/blog/medical imaging.jpeg" width="600" alt="Gravel Calls" class="text-center" >}}
+{{< figure src="/images/blog/medical imaging.webp" width="600" alt="Gravel Calls" class="text-center" >}}
 
 🏭 **自動化：**
 從製造品質控製到監控和安全系統，影像處理可以增強自動化功能。隨著印度製造業和IT產業的持續成長，對此類技能的需求將會增加。
