@@ -3,7 +3,7 @@ title: "Unraveling the Mysteries of Pattern Recognition: Image Processing in a D
 date: 2023-10-05T17:52:55+05:30
 draft: false
 width: 12
-image: "pattern-1.avif"
+image: "pattern-1.jpg"
 metaTitle: "Unraveling the Mysteries of Pattern Recognition: Image Processing in a Digital Wonderland | Open CV Courses"
 metaDes: "In the vast landscape of digital technology, the convergence of image processing and pattern recognition has opened the door to a realm of endless possibilities. From facial recognition systems that unlock our smartphones to advanced medical imaging techniques revolutionizing healthcare, the fusion of these two fields has redefined the way we perceive and interact with the world. "
 ---
